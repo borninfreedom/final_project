@@ -253,7 +253,7 @@ class KukaVisualReachEnv(gym.Env):
         return cropped
 
     def _step(self, action: np.float32):
-        dv = 0.1
+        dv = 0.05
         dx = action[0] * dv
         dy = action[1] * dv
         dz = action[2] * dv
