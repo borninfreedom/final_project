@@ -17,6 +17,10 @@ import logging
 
 logger=EasyLog(log_level=logging.INFO)
 
+
+# change log
+# dv=0.1 in _step func
+
 class KukaVisualReachEnv(gym.Env):
     metadata = {
         'render.modes': ['human', 'rgb_array'],

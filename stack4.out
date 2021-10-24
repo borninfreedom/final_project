@@ -1,0 +1,3729 @@
+nohup: ignoring input
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+pybullet build time: Oct 10 2021 16:44:59
+Using cuda device
+Num timesteps: 1200
+Best mean reward: -inf - Last mean reward per episode: -0.09
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 2400
+Best mean reward: -0.09 - Last mean reward per episode: -0.07
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 3600
+Best mean reward: -0.07 - Last mean reward per episode: -0.09
+Num timesteps: 4800
+Best mean reward: -0.07 - Last mean reward per episode: -0.06
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 6000
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 7200
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 8400
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 9600
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 10800
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 12000
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 13200
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 14400
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 15600
+Best mean reward: -0.06 - Last mean reward per episode: -0.08
+Num timesteps: 16800
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 18000
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 19200
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 20400
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 21600
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 22800
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 24000
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+------------------------------------
+| rollout/           |             |
+|    ep_len_mean     | 1.43        |
+|    ep_rew_mean     | -0.08000002 |
+| time/              |             |
+|    fps             | 1           |
+|    iterations      | 1           |
+|    time_elapsed    | 12347       |
+|    total_timesteps | 24576       |
+------------------------------------
+Num timesteps: 25200
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 26400
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 27600
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 28800
+Best mean reward: -0.06 - Last mean reward per episode: -0.08
+Num timesteps: 30000
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 31200
+Best mean reward: -0.06 - Last mean reward per episode: -0.06
+Num timesteps: 32400
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 33600
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 34800
+Best mean reward: -0.06 - Last mean reward per episode: -0.08
+Num timesteps: 36000
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 37200
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 38400
+Best mean reward: -0.06 - Last mean reward per episode: -0.08
+Num timesteps: 39600
+Best mean reward: -0.06 - Last mean reward per episode: -0.08
+Num timesteps: 40800
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 42000
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 43200
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 44400
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 45600
+Best mean reward: -0.06 - Last mean reward per episode: -0.06
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 46800
+Best mean reward: -0.06 - Last mean reward per episode: -0.10
+Num timesteps: 48000
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.61        |
+|    ep_rew_mean          | -0.09600002 |
+| time/                   |             |
+|    fps                  | 1           |
+|    iterations           | 2           |
+|    time_elapsed         | 24812       |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.013269027 |
+|    clip_fraction        | 0.172       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.22       |
+|    explained_variance   | -0.0906     |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.00521    |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.0109     |
+|    std                  | 0.983       |
+|    value_loss           | 0.0139      |
+-----------------------------------------
+Num timesteps: 49200
+Best mean reward: -0.06 - Last mean reward per episode: -0.08
+Num timesteps: 50400
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 51600
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 52800
+Best mean reward: -0.06 - Last mean reward per episode: -0.08
+Num timesteps: 54000
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 55200
+Best mean reward: -0.06 - Last mean reward per episode: -0.09
+Num timesteps: 56400
+Best mean reward: -0.06 - Last mean reward per episode: -0.07
+Num timesteps: 57600
+Best mean reward: -0.06 - Last mean reward per episode: -0.05
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 58800
+Best mean reward: -0.05 - Last mean reward per episode: -0.05
+Num timesteps: 60000
+Best mean reward: -0.05 - Last mean reward per episode: -0.08
+Num timesteps: 61200
+Best mean reward: -0.05 - Last mean reward per episode: -0.08
+Num timesteps: 62400
+Best mean reward: -0.05 - Last mean reward per episode: -0.09
+Num timesteps: 63600
+Best mean reward: -0.05 - Last mean reward per episode: -0.10
+Num timesteps: 64800
+Best mean reward: -0.05 - Last mean reward per episode: -0.07
+Num timesteps: 66000
+Best mean reward: -0.05 - Last mean reward per episode: -0.04
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 67200
+Best mean reward: -0.04 - Last mean reward per episode: -0.07
+Num timesteps: 68400
+Best mean reward: -0.04 - Last mean reward per episode: -0.03
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 69600
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 70800
+Best mean reward: -0.03 - Last mean reward per episode: -0.04
+Num timesteps: 72000
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 73200
+Best mean reward: -0.03 - Last mean reward per episode: -0.09
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.63         |
+|    ep_rew_mean          | -0.076000005 |
+| time/                   |              |
+|    fps                  | 1            |
+|    iterations           | 3            |
+|    time_elapsed         | 37288        |
+|    total_timesteps      | 73728        |
+| train/                  |              |
+|    approx_kl            | 0.020076208  |
+|    clip_fraction        | 0.275        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.15        |
+|    explained_variance   | -0.000462    |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.01        |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.0169      |
+|    std                  | 0.956        |
+|    value_loss           | 0.0178       |
+------------------------------------------
+Num timesteps: 74400
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 75600
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 76800
+Best mean reward: -0.03 - Last mean reward per episode: -0.09
+Num timesteps: 78000
+Best mean reward: -0.03 - Last mean reward per episode: -0.09
+Num timesteps: 79200
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 80400
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 81600
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 82800
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 84000
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 85200
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 86400
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 87600
+Best mean reward: -0.03 - Last mean reward per episode: -0.03
+Num timesteps: 88800
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 90000
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 91200
+Best mean reward: -0.03 - Last mean reward per episode: -0.09
+Num timesteps: 92400
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+Num timesteps: 93600
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 94800
+Best mean reward: -0.03 - Last mean reward per episode: -0.10
+Num timesteps: 96000
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 97200
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.72         |
+|    ep_rew_mean          | -0.054000005 |
+| time/                   |              |
+|    fps                  | 1            |
+|    iterations           | 4            |
+|    time_elapsed         | 49797        |
+|    total_timesteps      | 98304        |
+| train/                  |              |
+|    approx_kl            | 0.02134175   |
+|    clip_fraction        | 0.288        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.04        |
+|    explained_variance   | -0.00133     |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0163      |
+|    n_updates            | 30           |
+|    policy_gradient_loss | -0.023       |
+|    std                  | 0.92         |
+|    value_loss           | 0.0244       |
+------------------------------------------
+Num timesteps: 98400
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 99600
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 100800
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 102000
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+Num timesteps: 103200
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+Num timesteps: 104400
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 105600
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 106800
+Best mean reward: -0.03 - Last mean reward per episode: -0.09
+Num timesteps: 108000
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 109200
+Best mean reward: -0.03 - Last mean reward per episode: -0.03
+Num timesteps: 110400
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 111600
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+Num timesteps: 112800
+Best mean reward: -0.03 - Last mean reward per episode: -0.09
+Num timesteps: 114000
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+Num timesteps: 115200
+Best mean reward: -0.03 - Last mean reward per episode: -0.09
+Num timesteps: 116400
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 117600
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 118800
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 120000
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 121200
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 122400
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.96        |
+|    ep_rew_mean          | -0.08200002 |
+| time/                   |             |
+|    fps                  | 1           |
+|    iterations           | 5           |
+|    time_elapsed         | 62209       |
+|    total_timesteps      | 122880      |
+| train/                  |             |
+|    approx_kl            | 0.026580112 |
+|    clip_fraction        | 0.311       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.91       |
+|    explained_variance   | 0.00343     |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0168     |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0273     |
+|    std                  | 0.881       |
+|    value_loss           | 0.0292      |
+-----------------------------------------
+Num timesteps: 123600
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 124800
+Best mean reward: -0.03 - Last mean reward per episode: -0.04
+Num timesteps: 126000
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 127200
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+Num timesteps: 128400
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 129600
+Best mean reward: -0.03 - Last mean reward per episode: -0.06
+Num timesteps: 130800
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 132000
+Best mean reward: -0.03 - Last mean reward per episode: -0.05
+Num timesteps: 133200
+Best mean reward: -0.03 - Last mean reward per episode: -0.07
+Num timesteps: 134400
+Best mean reward: -0.03 - Last mean reward per episode: -0.08
+Num timesteps: 135600
+Best mean reward: -0.03 - Last mean reward per episode: -0.03
+Num timesteps: 136800
+Best mean reward: -0.03 - Last mean reward per episode: -0.03
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 138000
+Best mean reward: -0.03 - Last mean reward per episode: -0.02
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 139200
+Best mean reward: -0.02 - Last mean reward per episode: -0.03
+Num timesteps: 140400
+Best mean reward: -0.02 - Last mean reward per episode: -0.05
+Num timesteps: 141600
+Best mean reward: -0.02 - Last mean reward per episode: -0.03
+Num timesteps: 142800
+Best mean reward: -0.02 - Last mean reward per episode: -0.05
+Num timesteps: 144000
+Best mean reward: -0.02 - Last mean reward per episode: -0.05
+Num timesteps: 145200
+Best mean reward: -0.02 - Last mean reward per episode: -0.05
+Num timesteps: 146400
+Best mean reward: -0.02 - Last mean reward per episode: -0.03
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.91        |
+|    ep_rew_mean          | -0.08300002 |
+| time/                   |             |
+|    fps                  | 1           |
+|    iterations           | 6           |
+|    time_elapsed         | 74632       |
+|    total_timesteps      | 147456      |
+| train/                  |             |
+|    approx_kl            | 0.031387847 |
+|    clip_fraction        | 0.319       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.78       |
+|    explained_variance   | 0.000314    |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0265     |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.0322     |
+|    std                  | 0.844       |
+|    value_loss           | 0.0353      |
+-----------------------------------------
+Num timesteps: 147600
+Best mean reward: -0.02 - Last mean reward per episode: -0.07
+Num timesteps: 148800
+Best mean reward: -0.02 - Last mean reward per episode: -0.04
+Num timesteps: 150000
+Best mean reward: -0.02 - Last mean reward per episode: -0.04
+Num timesteps: 151200
+Best mean reward: -0.02 - Last mean reward per episode: -0.04
+Num timesteps: 152400
+Best mean reward: -0.02 - Last mean reward per episode: -0.06
+Num timesteps: 153600
+Best mean reward: -0.02 - Last mean reward per episode: -0.02
+Num timesteps: 154800
+Best mean reward: -0.02 - Last mean reward per episode: -0.05
+Num timesteps: 156000
+Best mean reward: -0.02 - Last mean reward per episode: -0.06
+Num timesteps: 157200
+Best mean reward: -0.02 - Last mean reward per episode: 0.01
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 158400
+Best mean reward: 0.01 - Last mean reward per episode: -0.06
+Num timesteps: 159600
+Best mean reward: 0.01 - Last mean reward per episode: -0.04
+Num timesteps: 160800
+Best mean reward: 0.01 - Last mean reward per episode: -0.03
+Num timesteps: 162000
+Best mean reward: 0.01 - Last mean reward per episode: -0.01
+Num timesteps: 163200
+Best mean reward: 0.01 - Last mean reward per episode: -0.02
+Num timesteps: 164400
+Best mean reward: 0.01 - Last mean reward per episode: 0.01
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 165600
+Best mean reward: 0.01 - Last mean reward per episode: -0.03
+Num timesteps: 166800
+Best mean reward: 0.01 - Last mean reward per episode: -0.07
+Num timesteps: 168000
+Best mean reward: 0.01 - Last mean reward per episode: -0.04
+Num timesteps: 169200
+Best mean reward: 0.01 - Last mean reward per episode: -0.00
+Num timesteps: 170400
+Best mean reward: 0.01 - Last mean reward per episode: 0.05
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 171600
+Best mean reward: 0.05 - Last mean reward per episode: -0.03
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 2.13         |
+|    ep_rew_mean          | -0.035000004 |
+| time/                   |              |
+|    fps                  | 1            |
+|    iterations           | 7            |
+|    time_elapsed         | 86928        |
+|    total_timesteps      | 172032       |
+| train/                  |              |
+|    approx_kl            | 0.035910185  |
+|    clip_fraction        | 0.345        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -3.65        |
+|    explained_variance   | 0.0138       |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0285      |
+|    n_updates            | 60           |
+|    policy_gradient_loss | -0.038       |
+|    std                  | 0.808        |
+|    value_loss           | 0.0474       |
+------------------------------------------
+Num timesteps: 172800
+Best mean reward: 0.05 - Last mean reward per episode: -0.01
+Num timesteps: 174000
+Best mean reward: 0.05 - Last mean reward per episode: -0.01
+Num timesteps: 175200
+Best mean reward: 0.05 - Last mean reward per episode: 0.02
+Num timesteps: 176400
+Best mean reward: 0.05 - Last mean reward per episode: -0.01
+Num timesteps: 177600
+Best mean reward: 0.05 - Last mean reward per episode: -0.03
+Num timesteps: 178800
+Best mean reward: 0.05 - Last mean reward per episode: -0.00
+Num timesteps: 180000
+Best mean reward: 0.05 - Last mean reward per episode: -0.06
+Num timesteps: 181200
+Best mean reward: 0.05 - Last mean reward per episode: -0.01
+Num timesteps: 182400
+Best mean reward: 0.05 - Last mean reward per episode: 0.02
+Num timesteps: 183600
+Best mean reward: 0.05 - Last mean reward per episode: -0.01
+Num timesteps: 184800
+Best mean reward: 0.05 - Last mean reward per episode: 0.05
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 186000
+Best mean reward: 0.05 - Last mean reward per episode: 0.01
+Num timesteps: 187200
+Best mean reward: 0.05 - Last mean reward per episode: 0.06
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 188400
+Best mean reward: 0.06 - Last mean reward per episode: -0.00
+Num timesteps: 189600
+Best mean reward: 0.06 - Last mean reward per episode: 0.00
+Num timesteps: 190800
+Best mean reward: 0.06 - Last mean reward per episode: 0.03
+Num timesteps: 192000
+Best mean reward: 0.06 - Last mean reward per episode: 0.05
+Num timesteps: 193200
+Best mean reward: 0.06 - Last mean reward per episode: -0.00
+Num timesteps: 194400
+Best mean reward: 0.06 - Last mean reward per episode: -0.04
+Num timesteps: 195600
+Best mean reward: 0.06 - Last mean reward per episode: -0.01
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.84         |
+|    ep_rew_mean          | -0.020000007 |
+| time/                   |              |
+|    fps                  | 1            |
+|    iterations           | 8            |
+|    time_elapsed         | 99141        |
+|    total_timesteps      | 196608       |
+| train/                  |              |
+|    approx_kl            | 0.043880653  |
+|    clip_fraction        | 0.37         |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -3.5         |
+|    explained_variance   | 0.0212       |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0306      |
+|    n_updates            | 70           |
+|    policy_gradient_loss | -0.0446      |
+|    std                  | 0.77         |
+|    value_loss           | 0.0598       |
+------------------------------------------
+Num timesteps: 196800
+Best mean reward: 0.06 - Last mean reward per episode: 0.06
+Num timesteps: 198000
+Best mean reward: 0.06 - Last mean reward per episode: 0.02
+Num timesteps: 199200
+Best mean reward: 0.06 - Last mean reward per episode: 0.03
+Num timesteps: 200400
+Best mean reward: 0.06 - Last mean reward per episode: 0.06
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 201600
+Best mean reward: 0.06 - Last mean reward per episode: -0.00
+Num timesteps: 202800
+Best mean reward: 0.06 - Last mean reward per episode: 0.01
+Num timesteps: 204000
+Best mean reward: 0.06 - Last mean reward per episode: 0.01
+Num timesteps: 205200
+Best mean reward: 0.06 - Last mean reward per episode: 0.04
+Num timesteps: 206400
+Best mean reward: 0.06 - Last mean reward per episode: 0.05
+Num timesteps: 207600
+Best mean reward: 0.06 - Last mean reward per episode: -0.01
+Num timesteps: 208800
+Best mean reward: 0.06 - Last mean reward per episode: 0.01
+Num timesteps: 210000
+Best mean reward: 0.06 - Last mean reward per episode: 0.03
+Num timesteps: 211200
+Best mean reward: 0.06 - Last mean reward per episode: -0.02
+Num timesteps: 212400
+Best mean reward: 0.06 - Last mean reward per episode: 0.09
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 213600
+Best mean reward: 0.09 - Last mean reward per episode: 0.03
+Num timesteps: 214800
+Best mean reward: 0.09 - Last mean reward per episode: 0.05
+Num timesteps: 216000
+Best mean reward: 0.09 - Last mean reward per episode: 0.06
+Num timesteps: 217200
+Best mean reward: 0.09 - Last mean reward per episode: -0.03
+Num timesteps: 218400
+Best mean reward: 0.09 - Last mean reward per episode: 0.02
+Num timesteps: 219600
+Best mean reward: 0.09 - Last mean reward per episode: -0.04
+Num timesteps: 220800
+Best mean reward: 0.09 - Last mean reward per episode: 0.00
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 2.14        |
+|    ep_rew_mean          | 0.10099998  |
+| time/                   |             |
+|    fps                  | 1           |
+|    iterations           | 9           |
+|    time_elapsed         | 111360      |
+|    total_timesteps      | 221184      |
+| train/                  |             |
+|    approx_kl            | 0.051437657 |
+|    clip_fraction        | 0.403       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.35       |
+|    explained_variance   | 0.0531      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0285     |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.052      |
+|    std                  | 0.731       |
+|    value_loss           | 0.0831      |
+-----------------------------------------
+Num timesteps: 222000
+Best mean reward: 0.09 - Last mean reward per episode: 0.03
+Num timesteps: 223200
+Best mean reward: 0.09 - Last mean reward per episode: 0.06
+Num timesteps: 224400
+Best mean reward: 0.09 - Last mean reward per episode: 0.08
+Num timesteps: 225600
+Best mean reward: 0.09 - Last mean reward per episode: 0.05
+Num timesteps: 226800
+Best mean reward: 0.09 - Last mean reward per episode: 0.08
+Num timesteps: 228000
+Best mean reward: 0.09 - Last mean reward per episode: 0.07
+Num timesteps: 229200
+Best mean reward: 0.09 - Last mean reward per episode: 0.17
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 230400
+Best mean reward: 0.17 - Last mean reward per episode: 0.06
+Num timesteps: 231600
+Best mean reward: 0.17 - Last mean reward per episode: 0.09
+Num timesteps: 232800
+Best mean reward: 0.17 - Last mean reward per episode: 0.04
+Num timesteps: 234000
+Best mean reward: 0.17 - Last mean reward per episode: 0.08
+Num timesteps: 235200
+Best mean reward: 0.17 - Last mean reward per episode: 0.09
+Num timesteps: 236400
+Best mean reward: 0.17 - Last mean reward per episode: 0.06
+Num timesteps: 237600
+Best mean reward: 0.17 - Last mean reward per episode: 0.04
+Num timesteps: 238800
+Best mean reward: 0.17 - Last mean reward per episode: 0.10
+Num timesteps: 240000
+Best mean reward: 0.17 - Last mean reward per episode: 0.10
+Num timesteps: 241200
+Best mean reward: 0.17 - Last mean reward per episode: 0.09
+Num timesteps: 242400
+Best mean reward: 0.17 - Last mean reward per episode: 0.04
+Num timesteps: 243600
+Best mean reward: 0.17 - Last mean reward per episode: 0.08
+Num timesteps: 244800
+Best mean reward: 0.17 - Last mean reward per episode: 0.06
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.23       |
+|    ep_rew_mean          | 0.129      |
+| time/                   |            |
+|    fps                  | 1          |
+|    iterations           | 10         |
+|    time_elapsed         | 123523     |
+|    total_timesteps      | 245760     |
+| train/                  |            |
+|    approx_kl            | 0.05807249 |
+|    clip_fraction        | 0.416      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.19      |
+|    explained_variance   | 0.0697     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0236    |
+|    n_updates            | 90         |
+|    policy_gradient_loss | -0.0565    |
+|    std                  | 0.691      |
+|    value_loss           | 0.101      |
+----------------------------------------
+Num timesteps: 246000
+Best mean reward: 0.17 - Last mean reward per episode: 0.18
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 247200
+Best mean reward: 0.18 - Last mean reward per episode: 0.06
+Num timesteps: 248400
+Best mean reward: 0.18 - Last mean reward per episode: 0.13
+Num timesteps: 249600
+Best mean reward: 0.18 - Last mean reward per episode: 0.09
+Num timesteps: 250800
+Best mean reward: 0.18 - Last mean reward per episode: 0.19
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 252000
+Best mean reward: 0.19 - Last mean reward per episode: 0.06
+Num timesteps: 253200
+Best mean reward: 0.19 - Last mean reward per episode: 0.13
+Num timesteps: 254400
+Best mean reward: 0.19 - Last mean reward per episode: 0.16
+Num timesteps: 255600
+Best mean reward: 0.19 - Last mean reward per episode: 0.16
+Num timesteps: 256800
+Best mean reward: 0.19 - Last mean reward per episode: 0.08
+Num timesteps: 258000
+Best mean reward: 0.19 - Last mean reward per episode: 0.10
+Num timesteps: 259200
+Best mean reward: 0.19 - Last mean reward per episode: 0.14
+Num timesteps: 260400
+Best mean reward: 0.19 - Last mean reward per episode: 0.17
+Num timesteps: 261600
+Best mean reward: 0.19 - Last mean reward per episode: 0.09
+Num timesteps: 262800
+Best mean reward: 0.19 - Last mean reward per episode: 0.10
+Num timesteps: 264000
+Best mean reward: 0.19 - Last mean reward per episode: 0.14
+Num timesteps: 265200
+Best mean reward: 0.19 - Last mean reward per episode: 0.15
+Num timesteps: 266400
+Best mean reward: 0.19 - Last mean reward per episode: 0.08
+Num timesteps: 267600
+Best mean reward: 0.19 - Last mean reward per episode: 0.17
+Num timesteps: 268800
+Best mean reward: 0.19 - Last mean reward per episode: 0.04
+Num timesteps: 270000
+Best mean reward: 0.19 - Last mean reward per episode: 0.08
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.13       |
+|    ep_rew_mean          | 0.17800002 |
+| time/                   |            |
+|    fps                  | 1          |
+|    iterations           | 11         |
+|    time_elapsed         | 135556     |
+|    total_timesteps      | 270336     |
+| train/                  |            |
+|    approx_kl            | 0.0723228  |
+|    clip_fraction        | 0.443      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.01      |
+|    explained_variance   | 0.109      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0273    |
+|    n_updates            | 100        |
+|    policy_gradient_loss | -0.0634    |
+|    std                  | 0.65       |
+|    value_loss           | 0.12       |
+----------------------------------------
+Num timesteps: 271200
+Best mean reward: 0.19 - Last mean reward per episode: 0.14
+Num timesteps: 272400
+Best mean reward: 0.19 - Last mean reward per episode: 0.19
+Num timesteps: 273600
+Best mean reward: 0.19 - Last mean reward per episode: 0.27
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 274800
+Best mean reward: 0.27 - Last mean reward per episode: 0.14
+Num timesteps: 276000
+Best mean reward: 0.27 - Last mean reward per episode: 0.21
+Num timesteps: 277200
+Best mean reward: 0.27 - Last mean reward per episode: 0.25
+Num timesteps: 278400
+Best mean reward: 0.27 - Last mean reward per episode: 0.22
+Num timesteps: 279600
+Best mean reward: 0.27 - Last mean reward per episode: 0.19
+Num timesteps: 280800
+Best mean reward: 0.27 - Last mean reward per episode: 0.19
+Num timesteps: 282000
+Best mean reward: 0.27 - Last mean reward per episode: 0.14
+Num timesteps: 283200
+Best mean reward: 0.27 - Last mean reward per episode: 0.15
+Num timesteps: 284400
+Best mean reward: 0.27 - Last mean reward per episode: 0.12
+Num timesteps: 285600
+Best mean reward: 0.27 - Last mean reward per episode: 0.18
+Num timesteps: 286800
+Best mean reward: 0.27 - Last mean reward per episode: 0.17
+Num timesteps: 288000
+Best mean reward: 0.27 - Last mean reward per episode: 0.18
+Num timesteps: 289200
+Best mean reward: 0.27 - Last mean reward per episode: 0.14
+Num timesteps: 290400
+Best mean reward: 0.27 - Last mean reward per episode: 0.12
+Num timesteps: 291600
+Best mean reward: 0.27 - Last mean reward per episode: 0.18
+Num timesteps: 292800
+Best mean reward: 0.27 - Last mean reward per episode: 0.18
+Num timesteps: 294000
+Best mean reward: 0.27 - Last mean reward per episode: 0.25
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.32       |
+|    ep_rew_mean          | 0.24200001 |
+| time/                   |            |
+|    fps                  | 1          |
+|    iterations           | 12         |
+|    time_elapsed         | 147529     |
+|    total_timesteps      | 294912     |
+| train/                  |            |
+|    approx_kl            | 0.07544116 |
+|    clip_fraction        | 0.46       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.82      |
+|    explained_variance   | 0.144      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0259    |
+|    n_updates            | 110        |
+|    policy_gradient_loss | -0.07      |
+|    std                  | 0.611      |
+|    value_loss           | 0.138      |
+----------------------------------------
+Num timesteps: 295200
+Best mean reward: 0.27 - Last mean reward per episode: 0.34
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 296400
+Best mean reward: 0.34 - Last mean reward per episode: 0.26
+Num timesteps: 297600
+Best mean reward: 0.34 - Last mean reward per episode: 0.27
+Num timesteps: 298800
+Best mean reward: 0.34 - Last mean reward per episode: 0.19
+Num timesteps: 300000
+Best mean reward: 0.34 - Last mean reward per episode: 0.20
+Num timesteps: 301200
+Best mean reward: 0.34 - Last mean reward per episode: 0.19
+Num timesteps: 302400
+Best mean reward: 0.34 - Last mean reward per episode: 0.21
+Num timesteps: 303600
+Best mean reward: 0.34 - Last mean reward per episode: 0.35
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 304800
+Best mean reward: 0.35 - Last mean reward per episode: 0.22
+Num timesteps: 306000
+Best mean reward: 0.35 - Last mean reward per episode: 0.19
+Num timesteps: 307200
+Best mean reward: 0.35 - Last mean reward per episode: 0.27
+Num timesteps: 308400
+Best mean reward: 0.35 - Last mean reward per episode: 0.20
+Num timesteps: 309600
+Best mean reward: 0.35 - Last mean reward per episode: 0.21
+Num timesteps: 310800
+Best mean reward: 0.35 - Last mean reward per episode: 0.33
+Num timesteps: 312000
+Best mean reward: 0.35 - Last mean reward per episode: 0.24
+Num timesteps: 313200
+Best mean reward: 0.35 - Last mean reward per episode: 0.24
+Num timesteps: 314400
+Best mean reward: 0.35 - Last mean reward per episode: 0.17
+Num timesteps: 315600
+Best mean reward: 0.35 - Last mean reward per episode: 0.19
+Num timesteps: 316800
+Best mean reward: 0.35 - Last mean reward per episode: 0.19
+Num timesteps: 318000
+Best mean reward: 0.35 - Last mean reward per episode: 0.28
+Num timesteps: 319200
+Best mean reward: 0.35 - Last mean reward per episode: 0.21
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.41       |
+|    ep_rew_mean          | 0.249      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 13         |
+|    time_elapsed         | 159414     |
+|    total_timesteps      | 319488     |
+| train/                  |            |
+|    approx_kl            | 0.08045887 |
+|    clip_fraction        | 0.475      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.63      |
+|    explained_variance   | 0.18       |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.022     |
+|    n_updates            | 120        |
+|    policy_gradient_loss | -0.0733    |
+|    std                  | 0.573      |
+|    value_loss           | 0.156      |
+----------------------------------------
+Num timesteps: 320400
+Best mean reward: 0.35 - Last mean reward per episode: 0.25
+Num timesteps: 321600
+Best mean reward: 0.35 - Last mean reward per episode: 0.27
+Num timesteps: 322800
+Best mean reward: 0.35 - Last mean reward per episode: 0.28
+Num timesteps: 324000
+Best mean reward: 0.35 - Last mean reward per episode: 0.27
+Num timesteps: 325200
+Best mean reward: 0.35 - Last mean reward per episode: 0.27
+Num timesteps: 326400
+Best mean reward: 0.35 - Last mean reward per episode: 0.31
+Num timesteps: 327600
+Best mean reward: 0.35 - Last mean reward per episode: 0.31
+Num timesteps: 328800
+Best mean reward: 0.35 - Last mean reward per episode: 0.29
+Num timesteps: 330000
+Best mean reward: 0.35 - Last mean reward per episode: 0.26
+Num timesteps: 331200
+Best mean reward: 0.35 - Last mean reward per episode: 0.30
+Num timesteps: 332400
+Best mean reward: 0.35 - Last mean reward per episode: 0.21
+Num timesteps: 333600
+Best mean reward: 0.35 - Last mean reward per episode: 0.20
+Num timesteps: 334800
+Best mean reward: 0.35 - Last mean reward per episode: 0.29
+Num timesteps: 336000
+Best mean reward: 0.35 - Last mean reward per episode: 0.34
+Num timesteps: 337200
+Best mean reward: 0.35 - Last mean reward per episode: 0.31
+Num timesteps: 338400
+Best mean reward: 0.35 - Last mean reward per episode: 0.34
+Num timesteps: 339600
+Best mean reward: 0.35 - Last mean reward per episode: 0.35
+Num timesteps: 340800
+Best mean reward: 0.35 - Last mean reward per episode: 0.27
+Num timesteps: 342000
+Best mean reward: 0.35 - Last mean reward per episode: 0.23
+Num timesteps: 343200
+Best mean reward: 0.35 - Last mean reward per episode: 0.21
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.14       |
+|    ep_rew_mean          | 0.40200004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 14         |
+|    time_elapsed         | 171272     |
+|    total_timesteps      | 344064     |
+| train/                  |            |
+|    approx_kl            | 0.08972301 |
+|    clip_fraction        | 0.486      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.45      |
+|    explained_variance   | 0.215      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0305    |
+|    n_updates            | 130        |
+|    policy_gradient_loss | -0.0756    |
+|    std                  | 0.539      |
+|    value_loss           | 0.166      |
+----------------------------------------
+Num timesteps: 344400
+Best mean reward: 0.35 - Last mean reward per episode: 0.36
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 345600
+Best mean reward: 0.36 - Last mean reward per episode: 0.36
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 346800
+Best mean reward: 0.36 - Last mean reward per episode: 0.42
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 348000
+Best mean reward: 0.42 - Last mean reward per episode: 0.26
+Num timesteps: 349200
+Best mean reward: 0.42 - Last mean reward per episode: 0.40
+Num timesteps: 350400
+Best mean reward: 0.42 - Last mean reward per episode: 0.50
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 351600
+Best mean reward: 0.50 - Last mean reward per episode: 0.30
+Num timesteps: 352800
+Best mean reward: 0.50 - Last mean reward per episode: 0.45
+Num timesteps: 354000
+Best mean reward: 0.50 - Last mean reward per episode: 0.33
+Num timesteps: 355200
+Best mean reward: 0.50 - Last mean reward per episode: 0.31
+Num timesteps: 356400
+Best mean reward: 0.50 - Last mean reward per episode: 0.33
+Num timesteps: 357600
+Best mean reward: 0.50 - Last mean reward per episode: 0.28
+Num timesteps: 358800
+Best mean reward: 0.50 - Last mean reward per episode: 0.29
+Num timesteps: 360000
+Best mean reward: 0.50 - Last mean reward per episode: 0.26
+Num timesteps: 361200
+Best mean reward: 0.50 - Last mean reward per episode: 0.44
+Num timesteps: 362400
+Best mean reward: 0.50 - Last mean reward per episode: 0.38
+Num timesteps: 363600
+Best mean reward: 0.50 - Last mean reward per episode: 0.29
+Num timesteps: 364800
+Best mean reward: 0.50 - Last mean reward per episode: 0.34
+Num timesteps: 366000
+Best mean reward: 0.50 - Last mean reward per episode: 0.27
+Num timesteps: 367200
+Best mean reward: 0.50 - Last mean reward per episode: 0.34
+Num timesteps: 368400
+Best mean reward: 0.50 - Last mean reward per episode: 0.36
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 2.23        |
+|    ep_rew_mean          | 0.3610001   |
+| time/                   |             |
+|    fps                  | 2           |
+|    iterations           | 15          |
+|    time_elapsed         | 183113      |
+|    total_timesteps      | 368640      |
+| train/                  |             |
+|    approx_kl            | 0.097171284 |
+|    clip_fraction        | 0.496       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.26       |
+|    explained_variance   | 0.243       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0276     |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.0754     |
+|    std                  | 0.506       |
+|    value_loss           | 0.174       |
+-----------------------------------------
+Num timesteps: 369600
+Best mean reward: 0.50 - Last mean reward per episode: 0.42
+Num timesteps: 370800
+Best mean reward: 0.50 - Last mean reward per episode: 0.50
+Num timesteps: 372000
+Best mean reward: 0.50 - Last mean reward per episode: 0.44
+Num timesteps: 373200
+Best mean reward: 0.50 - Last mean reward per episode: 0.45
+Num timesteps: 374400
+Best mean reward: 0.50 - Last mean reward per episode: 0.41
+Num timesteps: 375600
+Best mean reward: 0.50 - Last mean reward per episode: 0.43
+Num timesteps: 376800
+Best mean reward: 0.50 - Last mean reward per episode: 0.36
+Num timesteps: 378000
+Best mean reward: 0.50 - Last mean reward per episode: 0.42
+Num timesteps: 379200
+Best mean reward: 0.50 - Last mean reward per episode: 0.38
+Num timesteps: 380400
+Best mean reward: 0.50 - Last mean reward per episode: 0.38
+Num timesteps: 381600
+Best mean reward: 0.50 - Last mean reward per episode: 0.54
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 382800
+Best mean reward: 0.54 - Last mean reward per episode: 0.41
+Num timesteps: 384000
+Best mean reward: 0.54 - Last mean reward per episode: 0.45
+Num timesteps: 385200
+Best mean reward: 0.54 - Last mean reward per episode: 0.29
+Num timesteps: 386400
+Best mean reward: 0.54 - Last mean reward per episode: 0.43
+Num timesteps: 387600
+Best mean reward: 0.54 - Last mean reward per episode: 0.37
+Num timesteps: 388800
+Best mean reward: 0.54 - Last mean reward per episode: 0.35
+Num timesteps: 390000
+Best mean reward: 0.54 - Last mean reward per episode: 0.38
+Num timesteps: 391200
+Best mean reward: 0.54 - Last mean reward per episode: 0.45
+Num timesteps: 392400
+Best mean reward: 0.54 - Last mean reward per episode: 0.43
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.41       |
+|    ep_rew_mean          | 0.33700004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 16         |
+|    time_elapsed         | 195117     |
+|    total_timesteps      | 393216     |
+| train/                  |            |
+|    approx_kl            | 0.10505303 |
+|    clip_fraction        | 0.511      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.08      |
+|    explained_variance   | 0.271      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0382    |
+|    n_updates            | 150        |
+|    policy_gradient_loss | -0.078     |
+|    std                  | 0.476      |
+|    value_loss           | 0.178      |
+----------------------------------------
+Num timesteps: 393600
+Best mean reward: 0.54 - Last mean reward per episode: 0.37
+Num timesteps: 394800
+Best mean reward: 0.54 - Last mean reward per episode: 0.45
+Num timesteps: 396000
+Best mean reward: 0.54 - Last mean reward per episode: 0.42
+Num timesteps: 397200
+Best mean reward: 0.54 - Last mean reward per episode: 0.40
+Num timesteps: 398400
+Best mean reward: 0.54 - Last mean reward per episode: 0.54
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 399600
+Best mean reward: 0.54 - Last mean reward per episode: 0.51
+Num timesteps: 400800
+Best mean reward: 0.54 - Last mean reward per episode: 0.44
+Num timesteps: 402000
+Best mean reward: 0.54 - Last mean reward per episode: 0.45
+Num timesteps: 403200
+Best mean reward: 0.54 - Last mean reward per episode: 0.43
+Num timesteps: 404400
+Best mean reward: 0.54 - Last mean reward per episode: 0.49
+Num timesteps: 405600
+Best mean reward: 0.54 - Last mean reward per episode: 0.44
+Num timesteps: 406800
+Best mean reward: 0.54 - Last mean reward per episode: 0.49
+Num timesteps: 408000
+Best mean reward: 0.54 - Last mean reward per episode: 0.49
+Num timesteps: 409200
+Best mean reward: 0.54 - Last mean reward per episode: 0.40
+Num timesteps: 410400
+Best mean reward: 0.54 - Last mean reward per episode: 0.46
+Num timesteps: 411600
+Best mean reward: 0.54 - Last mean reward per episode: 0.46
+Num timesteps: 412800
+Best mean reward: 0.54 - Last mean reward per episode: 0.48
+Num timesteps: 414000
+Best mean reward: 0.54 - Last mean reward per episode: 0.43
+Num timesteps: 415200
+Best mean reward: 0.54 - Last mean reward per episode: 0.47
+Num timesteps: 416400
+Best mean reward: 0.54 - Last mean reward per episode: 0.50
+Num timesteps: 417600
+Best mean reward: 0.54 - Last mean reward per episode: 0.42
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 2.3         |
+|    ep_rew_mean          | 0.44800004  |
+| time/                   |             |
+|    fps                  | 1           |
+|    iterations           | 17          |
+|    time_elapsed         | 209285      |
+|    total_timesteps      | 417792      |
+| train/                  |             |
+|    approx_kl            | 0.109357655 |
+|    clip_fraction        | 0.516       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.9        |
+|    explained_variance   | 0.314       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0245     |
+|    n_updates            | 160         |
+|    policy_gradient_loss | -0.0749     |
+|    std                  | 0.449       |
+|    value_loss           | 0.174       |
+-----------------------------------------
+Num timesteps: 418800
+Best mean reward: 0.54 - Last mean reward per episode: 0.52
+Num timesteps: 420000
+Best mean reward: 0.54 - Last mean reward per episode: 0.48
+Num timesteps: 421200
+Best mean reward: 0.54 - Last mean reward per episode: 0.45
+Num timesteps: 422400
+Best mean reward: 0.54 - Last mean reward per episode: 0.48
+Num timesteps: 423600
+Best mean reward: 0.54 - Last mean reward per episode: 0.51
+Num timesteps: 424800
+Best mean reward: 0.54 - Last mean reward per episode: 0.52
+Num timesteps: 426000
+Best mean reward: 0.54 - Last mean reward per episode: 0.42
+Num timesteps: 427200
+Best mean reward: 0.54 - Last mean reward per episode: 0.44
+Num timesteps: 428400
+Best mean reward: 0.54 - Last mean reward per episode: 0.58
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 429600
+Best mean reward: 0.58 - Last mean reward per episode: 0.63
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 430800
+Best mean reward: 0.63 - Last mean reward per episode: 0.44
+Num timesteps: 432000
+Best mean reward: 0.63 - Last mean reward per episode: 0.49
+Num timesteps: 433200
+Best mean reward: 0.63 - Last mean reward per episode: 0.52
+Num timesteps: 434400
+Best mean reward: 0.63 - Last mean reward per episode: 0.62
+Num timesteps: 435600
+Best mean reward: 0.63 - Last mean reward per episode: 0.43
+Num timesteps: 436800
+Best mean reward: 0.63 - Last mean reward per episode: 0.51
+Num timesteps: 438000
+Best mean reward: 0.63 - Last mean reward per episode: 0.54
+Num timesteps: 439200
+Best mean reward: 0.63 - Last mean reward per episode: 0.46
+Num timesteps: 440400
+Best mean reward: 0.63 - Last mean reward per episode: 0.44
+Num timesteps: 441600
+Best mean reward: 0.63 - Last mean reward per episode: 0.54
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.18       |
+|    ep_rew_mean          | 0.674      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 18         |
+|    time_elapsed         | 220915     |
+|    total_timesteps      | 442368     |
+| train/                  |            |
+|    approx_kl            | 0.11996099 |
+|    clip_fraction        | 0.528      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.73      |
+|    explained_variance   | 0.342      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0206    |
+|    n_updates            | 170        |
+|    policy_gradient_loss | -0.0737    |
+|    std                  | 0.424      |
+|    value_loss           | 0.173      |
+----------------------------------------
+Num timesteps: 442800
+Best mean reward: 0.63 - Last mean reward per episode: 0.56
+Num timesteps: 444000
+Best mean reward: 0.63 - Last mean reward per episode: 0.54
+Num timesteps: 445200
+Best mean reward: 0.63 - Last mean reward per episode: 0.45
+Num timesteps: 446400
+Best mean reward: 0.63 - Last mean reward per episode: 0.49
+Num timesteps: 447600
+Best mean reward: 0.63 - Last mean reward per episode: 0.61
+Num timesteps: 448800
+Best mean reward: 0.63 - Last mean reward per episode: 0.55
+Num timesteps: 450000
+Best mean reward: 0.63 - Last mean reward per episode: 0.54
+Num timesteps: 451200
+Best mean reward: 0.63 - Last mean reward per episode: 0.56
+Num timesteps: 452400
+Best mean reward: 0.63 - Last mean reward per episode: 0.51
+Num timesteps: 453600
+Best mean reward: 0.63 - Last mean reward per episode: 0.48
+Num timesteps: 454800
+Best mean reward: 0.63 - Last mean reward per episode: 0.55
+Num timesteps: 456000
+Best mean reward: 0.63 - Last mean reward per episode: 0.54
+Num timesteps: 457200
+Best mean reward: 0.63 - Last mean reward per episode: 0.56
+Num timesteps: 458400
+Best mean reward: 0.63 - Last mean reward per episode: 0.59
+Num timesteps: 459600
+Best mean reward: 0.63 - Last mean reward per episode: 0.54
+Num timesteps: 460800
+Best mean reward: 0.63 - Last mean reward per episode: 0.59
+Num timesteps: 462000
+Best mean reward: 0.63 - Last mean reward per episode: 0.56
+Num timesteps: 463200
+Best mean reward: 0.63 - Last mean reward per episode: 0.51
+Num timesteps: 464400
+Best mean reward: 0.63 - Last mean reward per episode: 0.63
+Num timesteps: 465600
+Best mean reward: 0.63 - Last mean reward per episode: 0.48
+Num timesteps: 466800
+Best mean reward: 0.63 - Last mean reward per episode: 0.51
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.12       |
+|    ep_rew_mean          | 0.54100007 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 19         |
+|    time_elapsed         | 232512     |
+|    total_timesteps      | 466944     |
+| train/                  |            |
+|    approx_kl            | 0.12785071 |
+|    clip_fraction        | 0.54       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.55      |
+|    explained_variance   | 0.33       |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.024     |
+|    n_updates            | 180        |
+|    policy_gradient_loss | -0.0752    |
+|    std                  | 0.4        |
+|    value_loss           | 0.176      |
+----------------------------------------
+Num timesteps: 468000
+Best mean reward: 0.63 - Last mean reward per episode: 0.54
+Num timesteps: 469200
+Best mean reward: 0.63 - Last mean reward per episode: 0.62
+Num timesteps: 470400
+Best mean reward: 0.63 - Last mean reward per episode: 0.52
+Num timesteps: 471600
+Best mean reward: 0.63 - Last mean reward per episode: 0.58
+Num timesteps: 472800
+Best mean reward: 0.63 - Last mean reward per episode: 0.61
+Num timesteps: 474000
+Best mean reward: 0.63 - Last mean reward per episode: 0.57
+Num timesteps: 475200
+Best mean reward: 0.63 - Last mean reward per episode: 0.66
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 476400
+Best mean reward: 0.66 - Last mean reward per episode: 0.60
+Num timesteps: 477600
+Best mean reward: 0.66 - Last mean reward per episode: 0.48
+Num timesteps: 478800
+Best mean reward: 0.66 - Last mean reward per episode: 0.60
+Num timesteps: 480000
+Best mean reward: 0.66 - Last mean reward per episode: 0.62
+Num timesteps: 481200
+Best mean reward: 0.66 - Last mean reward per episode: 0.50
+Num timesteps: 482400
+Best mean reward: 0.66 - Last mean reward per episode: 0.58
+Num timesteps: 483600
+Best mean reward: 0.66 - Last mean reward per episode: 0.58
+Num timesteps: 484800
+Best mean reward: 0.66 - Last mean reward per episode: 0.49
+Num timesteps: 486000
+Best mean reward: 0.66 - Last mean reward per episode: 0.55
+Num timesteps: 487200
+Best mean reward: 0.66 - Last mean reward per episode: 0.55
+Num timesteps: 488400
+Best mean reward: 0.66 - Last mean reward per episode: 0.60
+Num timesteps: 489600
+Best mean reward: 0.66 - Last mean reward per episode: 0.56
+Num timesteps: 490800
+Best mean reward: 0.66 - Last mean reward per episode: 0.57
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.13       |
+|    ep_rew_mean          | 0.573      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 20         |
+|    time_elapsed         | 244125     |
+|    total_timesteps      | 491520     |
+| train/                  |            |
+|    approx_kl            | 0.14173715 |
+|    clip_fraction        | 0.55       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.38      |
+|    explained_variance   | 0.353      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0374    |
+|    n_updates            | 190        |
+|    policy_gradient_loss | -0.0746    |
+|    std                  | 0.378      |
+|    value_loss           | 0.172      |
+----------------------------------------
+Num timesteps: 492000
+Best mean reward: 0.66 - Last mean reward per episode: 0.65
+Num timesteps: 493200
+Best mean reward: 0.66 - Last mean reward per episode: 0.57
+Num timesteps: 494400
+Best mean reward: 0.66 - Last mean reward per episode: 0.57
+Num timesteps: 495600
+Best mean reward: 0.66 - Last mean reward per episode: 0.62
+Num timesteps: 496800
+Best mean reward: 0.66 - Last mean reward per episode: 0.63
+Num timesteps: 498000
+Best mean reward: 0.66 - Last mean reward per episode: 0.62
+Num timesteps: 499200
+Best mean reward: 0.66 - Last mean reward per episode: 0.64
+Num timesteps: 500400
+Best mean reward: 0.66 - Last mean reward per episode: 0.65
+Num timesteps: 501600
+Best mean reward: 0.66 - Last mean reward per episode: 0.64
+Num timesteps: 502800
+Best mean reward: 0.66 - Last mean reward per episode: 0.69
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 504000
+Best mean reward: 0.69 - Last mean reward per episode: 0.56
+Num timesteps: 505200
+Best mean reward: 0.69 - Last mean reward per episode: 0.61
+Num timesteps: 506400
+Best mean reward: 0.69 - Last mean reward per episode: 0.49
+Num timesteps: 507600
+Best mean reward: 0.69 - Last mean reward per episode: 0.59
+Num timesteps: 508800
+Best mean reward: 0.69 - Last mean reward per episode: 0.61
+Num timesteps: 510000
+Best mean reward: 0.69 - Last mean reward per episode: 0.60
+Num timesteps: 511200
+Best mean reward: 0.69 - Last mean reward per episode: 0.52
+Num timesteps: 512400
+Best mean reward: 0.69 - Last mean reward per episode: 0.55
+Num timesteps: 513600
+Best mean reward: 0.69 - Last mean reward per episode: 0.51
+Num timesteps: 514800
+Best mean reward: 0.69 - Last mean reward per episode: 0.61
+Num timesteps: 516000
+Best mean reward: 0.69 - Last mean reward per episode: 0.59
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.26       |
+|    ep_rew_mean          | 0.65200007 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 21         |
+|    time_elapsed         | 255669     |
+|    total_timesteps      | 516096     |
+| train/                  |            |
+|    approx_kl            | 0.14414302 |
+|    clip_fraction        | 0.563      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.21      |
+|    explained_variance   | 0.348      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0266    |
+|    n_updates            | 200        |
+|    policy_gradient_loss | -0.0747    |
+|    std                  | 0.356      |
+|    value_loss           | 0.171      |
+----------------------------------------
+Num timesteps: 517200
+Best mean reward: 0.69 - Last mean reward per episode: 0.66
+Num timesteps: 518400
+Best mean reward: 0.69 - Last mean reward per episode: 0.57
+Num timesteps: 519600
+Best mean reward: 0.69 - Last mean reward per episode: 0.64
+Num timesteps: 520800
+Best mean reward: 0.69 - Last mean reward per episode: 0.55
+Num timesteps: 522000
+Best mean reward: 0.69 - Last mean reward per episode: 0.65
+Num timesteps: 523200
+Best mean reward: 0.69 - Last mean reward per episode: 0.72
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 524400
+Best mean reward: 0.72 - Last mean reward per episode: 0.59
+Num timesteps: 525600
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 526800
+Best mean reward: 0.72 - Last mean reward per episode: 0.59
+Num timesteps: 528000
+Best mean reward: 0.72 - Last mean reward per episode: 0.60
+Num timesteps: 529200
+Best mean reward: 0.72 - Last mean reward per episode: 0.51
+Num timesteps: 530400
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 531600
+Best mean reward: 0.72 - Last mean reward per episode: 0.67
+Num timesteps: 532800
+Best mean reward: 0.72 - Last mean reward per episode: 0.64
+Num timesteps: 534000
+Best mean reward: 0.72 - Last mean reward per episode: 0.68
+Num timesteps: 535200
+Best mean reward: 0.72 - Last mean reward per episode: 0.60
+Num timesteps: 536400
+Best mean reward: 0.72 - Last mean reward per episode: 0.69
+Num timesteps: 537600
+Best mean reward: 0.72 - Last mean reward per episode: 0.70
+Num timesteps: 538800
+Best mean reward: 0.72 - Last mean reward per episode: 0.68
+Num timesteps: 540000
+Best mean reward: 0.72 - Last mean reward per episode: 0.56
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.12       |
+|    ep_rew_mean          | 0.58500004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 22         |
+|    time_elapsed         | 267186     |
+|    total_timesteps      | 540672     |
+| train/                  |            |
+|    approx_kl            | 0.1660972  |
+|    clip_fraction        | 0.566      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.04      |
+|    explained_variance   | 0.366      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0344    |
+|    n_updates            | 210        |
+|    policy_gradient_loss | -0.0716    |
+|    std                  | 0.337      |
+|    value_loss           | 0.163      |
+----------------------------------------
+Num timesteps: 541200
+Best mean reward: 0.72 - Last mean reward per episode: 0.54
+Num timesteps: 542400
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 543600
+Best mean reward: 0.72 - Last mean reward per episode: 0.66
+Num timesteps: 544800
+Best mean reward: 0.72 - Last mean reward per episode: 0.68
+Num timesteps: 546000
+Best mean reward: 0.72 - Last mean reward per episode: 0.66
+Num timesteps: 547200
+Best mean reward: 0.72 - Last mean reward per episode: 0.64
+Num timesteps: 548400
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 549600
+Best mean reward: 0.72 - Last mean reward per episode: 0.60
+Num timesteps: 550800
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 552000
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 553200
+Best mean reward: 0.72 - Last mean reward per episode: 0.67
+Num timesteps: 554400
+Best mean reward: 0.72 - Last mean reward per episode: 0.68
+Num timesteps: 555600
+Best mean reward: 0.72 - Last mean reward per episode: 0.64
+Num timesteps: 556800
+Best mean reward: 0.72 - Last mean reward per episode: 0.64
+Num timesteps: 558000
+Best mean reward: 0.72 - Last mean reward per episode: 0.65
+Num timesteps: 559200
+Best mean reward: 0.72 - Last mean reward per episode: 0.58
+Num timesteps: 560400
+Best mean reward: 0.72 - Last mean reward per episode: 0.64
+Num timesteps: 561600
+Best mean reward: 0.72 - Last mean reward per episode: 0.62
+Num timesteps: 562800
+Best mean reward: 0.72 - Last mean reward per episode: 0.71
+Num timesteps: 564000
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 565200
+Best mean reward: 0.72 - Last mean reward per episode: 0.66
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.23       |
+|    ep_rew_mean          | 0.67300004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 23         |
+|    time_elapsed         | 278620     |
+|    total_timesteps      | 565248     |
+| train/                  |            |
+|    approx_kl            | 0.1699783  |
+|    clip_fraction        | 0.575      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.874     |
+|    explained_variance   | 0.351      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0339    |
+|    n_updates            | 220        |
+|    policy_gradient_loss | -0.0705    |
+|    std                  | 0.318      |
+|    value_loss           | 0.164      |
+----------------------------------------
+Num timesteps: 566400
+Best mean reward: 0.72 - Last mean reward per episode: 0.63
+Num timesteps: 567600
+Best mean reward: 0.72 - Last mean reward per episode: 0.71
+Num timesteps: 568800
+Best mean reward: 0.72 - Last mean reward per episode: 0.61
+Num timesteps: 570000
+Best mean reward: 0.72 - Last mean reward per episode: 0.72
+Num timesteps: 571200
+Best mean reward: 0.72 - Last mean reward per episode: 0.69
+Num timesteps: 572400
+Best mean reward: 0.72 - Last mean reward per episode: 0.66
+Num timesteps: 573600
+Best mean reward: 0.72 - Last mean reward per episode: 0.62
+Num timesteps: 574800
+Best mean reward: 0.72 - Last mean reward per episode: 0.74
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 576000
+Best mean reward: 0.74 - Last mean reward per episode: 0.71
+Num timesteps: 577200
+Best mean reward: 0.74 - Last mean reward per episode: 0.74
+Num timesteps: 578400
+Best mean reward: 0.74 - Last mean reward per episode: 0.62
+Num timesteps: 579600
+Best mean reward: 0.74 - Last mean reward per episode: 0.72
+Num timesteps: 580800
+Best mean reward: 0.74 - Last mean reward per episode: 0.69
+Num timesteps: 582000
+Best mean reward: 0.74 - Last mean reward per episode: 0.68
+Num timesteps: 583200
+Best mean reward: 0.74 - Last mean reward per episode: 0.74
+Num timesteps: 584400
+Best mean reward: 0.74 - Last mean reward per episode: 0.66
+Num timesteps: 585600
+Best mean reward: 0.74 - Last mean reward per episode: 0.67
+Num timesteps: 586800
+Best mean reward: 0.74 - Last mean reward per episode: 0.56
+Num timesteps: 588000
+Best mean reward: 0.74 - Last mean reward per episode: 0.64
+Num timesteps: 589200
+Best mean reward: 0.74 - Last mean reward per episode: 0.72
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.27       |
+|    ep_rew_mean          | 0.576      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 24         |
+|    time_elapsed         | 290054     |
+|    total_timesteps      | 589824     |
+| train/                  |            |
+|    approx_kl            | 0.19296236 |
+|    clip_fraction        | 0.579      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.707     |
+|    explained_variance   | 0.363      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0379    |
+|    n_updates            | 230        |
+|    policy_gradient_loss | -0.0716    |
+|    std                  | 0.301      |
+|    value_loss           | 0.155      |
+----------------------------------------
+Num timesteps: 590400
+Best mean reward: 0.74 - Last mean reward per episode: 0.65
+Num timesteps: 591600
+Best mean reward: 0.74 - Last mean reward per episode: 0.74
+Num timesteps: 592800
+Best mean reward: 0.74 - Last mean reward per episode: 0.71
+Num timesteps: 594000
+Best mean reward: 0.74 - Last mean reward per episode: 0.77
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 595200
+Best mean reward: 0.77 - Last mean reward per episode: 0.69
+Num timesteps: 596400
+Best mean reward: 0.77 - Last mean reward per episode: 0.72
+Num timesteps: 597600
+Best mean reward: 0.77 - Last mean reward per episode: 0.66
+Num timesteps: 598800
+Best mean reward: 0.77 - Last mean reward per episode: 0.73
+Num timesteps: 600000
+Best mean reward: 0.77 - Last mean reward per episode: 0.71
+Num timesteps: 601200
+Best mean reward: 0.77 - Last mean reward per episode: 0.72
+Num timesteps: 602400
+Best mean reward: 0.77 - Last mean reward per episode: 0.71
+Num timesteps: 603600
+Best mean reward: 0.77 - Last mean reward per episode: 0.74
+Num timesteps: 604800
+Best mean reward: 0.77 - Last mean reward per episode: 0.69
+Num timesteps: 606000
+Best mean reward: 0.77 - Last mean reward per episode: 0.71
+Num timesteps: 607200
+Best mean reward: 0.77 - Last mean reward per episode: 0.75
+Num timesteps: 608400
+Best mean reward: 0.77 - Last mean reward per episode: 0.71
+Num timesteps: 609600
+Best mean reward: 0.77 - Last mean reward per episode: 0.71
+Num timesteps: 610800
+Best mean reward: 0.77 - Last mean reward per episode: 0.78
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 612000
+Best mean reward: 0.78 - Last mean reward per episode: 0.79
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 613200
+Best mean reward: 0.79 - Last mean reward per episode: 0.70
+Num timesteps: 614400
+Best mean reward: 0.79 - Last mean reward per episode: 0.65
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.24       |
+|    ep_rew_mean          | 0.645      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 25         |
+|    time_elapsed         | 301447     |
+|    total_timesteps      | 614400     |
+| train/                  |            |
+|    approx_kl            | 0.20027323 |
+|    clip_fraction        | 0.601      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.531     |
+|    explained_variance   | 0.355      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0363    |
+|    n_updates            | 240        |
+|    policy_gradient_loss | -0.0703    |
+|    std                  | 0.284      |
+|    value_loss           | 0.152      |
+----------------------------------------
+Num timesteps: 615600
+Best mean reward: 0.79 - Last mean reward per episode: 0.69
+Num timesteps: 616800
+Best mean reward: 0.79 - Last mean reward per episode: 0.78
+Num timesteps: 618000
+Best mean reward: 0.79 - Last mean reward per episode: 0.73
+Num timesteps: 619200
+Best mean reward: 0.79 - Last mean reward per episode: 0.78
+Num timesteps: 620400
+Best mean reward: 0.79 - Last mean reward per episode: 0.82
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 621600
+Best mean reward: 0.82 - Last mean reward per episode: 0.73
+Num timesteps: 622800
+Best mean reward: 0.82 - Last mean reward per episode: 0.76
+Num timesteps: 624000
+Best mean reward: 0.82 - Last mean reward per episode: 0.75
+Num timesteps: 625200
+Best mean reward: 0.82 - Last mean reward per episode: 0.76
+Num timesteps: 626400
+Best mean reward: 0.82 - Last mean reward per episode: 0.70
+Num timesteps: 627600
+Best mean reward: 0.82 - Last mean reward per episode: 0.73
+Num timesteps: 628800
+Best mean reward: 0.82 - Last mean reward per episode: 0.85
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 630000
+Best mean reward: 0.85 - Last mean reward per episode: 0.73
+Num timesteps: 631200
+Best mean reward: 0.85 - Last mean reward per episode: 0.63
+Num timesteps: 632400
+Best mean reward: 0.85 - Last mean reward per episode: 0.71
+Num timesteps: 633600
+Best mean reward: 0.85 - Last mean reward per episode: 0.78
+Num timesteps: 634800
+Best mean reward: 0.85 - Last mean reward per episode: 0.69
+Num timesteps: 636000
+Best mean reward: 0.85 - Last mean reward per episode: 0.76
+Num timesteps: 637200
+Best mean reward: 0.85 - Last mean reward per episode: 0.77
+Num timesteps: 638400
+Best mean reward: 0.85 - Last mean reward per episode: 0.72
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.07       |
+|    ep_rew_mean          | 0.749      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 26         |
+|    time_elapsed         | 312793     |
+|    total_timesteps      | 638976     |
+| train/                  |            |
+|    approx_kl            | 0.21132338 |
+|    clip_fraction        | 0.609      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.361     |
+|    explained_variance   | 0.351      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0395    |
+|    n_updates            | 250        |
+|    policy_gradient_loss | -0.0667    |
+|    std                  | 0.269      |
+|    value_loss           | 0.146      |
+----------------------------------------
+Num timesteps: 639600
+Best mean reward: 0.85 - Last mean reward per episode: 0.81
+Num timesteps: 640800
+Best mean reward: 0.85 - Last mean reward per episode: 0.72
+Num timesteps: 642000
+Best mean reward: 0.85 - Last mean reward per episode: 0.79
+Num timesteps: 643200
+Best mean reward: 0.85 - Last mean reward per episode: 0.74
+Num timesteps: 644400
+Best mean reward: 0.85 - Last mean reward per episode: 0.79
+Num timesteps: 645600
+Best mean reward: 0.85 - Last mean reward per episode: 0.80
+Num timesteps: 646800
+Best mean reward: 0.85 - Last mean reward per episode: 0.74
+Num timesteps: 648000
+Best mean reward: 0.85 - Last mean reward per episode: 0.76
+Num timesteps: 649200
+Best mean reward: 0.85 - Last mean reward per episode: 0.71
+Num timesteps: 650400
+Best mean reward: 0.85 - Last mean reward per episode: 0.71
+Num timesteps: 651600
+Best mean reward: 0.85 - Last mean reward per episode: 0.73
+Num timesteps: 652800
+Best mean reward: 0.85 - Last mean reward per episode: 0.78
+Num timesteps: 654000
+Best mean reward: 0.85 - Last mean reward per episode: 0.66
+Num timesteps: 655200
+Best mean reward: 0.85 - Last mean reward per episode: 0.83
+Num timesteps: 656400
+Best mean reward: 0.85 - Last mean reward per episode: 0.79
+Num timesteps: 657600
+Best mean reward: 0.85 - Last mean reward per episode: 0.82
+Num timesteps: 658800
+Best mean reward: 0.85 - Last mean reward per episode: 0.80
+Num timesteps: 660000
+Best mean reward: 0.85 - Last mean reward per episode: 0.73
+Num timesteps: 661200
+Best mean reward: 0.85 - Last mean reward per episode: 0.76
+Num timesteps: 662400
+Best mean reward: 0.85 - Last mean reward per episode: 0.77
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2.09      |
+|    ep_rew_mean          | 0.7720001 |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 27        |
+|    time_elapsed         | 324089    |
+|    total_timesteps      | 663552    |
+| train/                  |           |
+|    approx_kl            | 0.2379967 |
+|    clip_fraction        | 0.616     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | -0.182    |
+|    explained_variance   | 0.352     |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.0519   |
+|    n_updates            | 260       |
+|    policy_gradient_loss | -0.0667   |
+|    std                  | 0.254     |
+|    value_loss           | 0.137     |
+---------------------------------------
+Num timesteps: 663600
+Best mean reward: 0.85 - Last mean reward per episode: 0.81
+Num timesteps: 664800
+Best mean reward: 0.85 - Last mean reward per episode: 0.80
+Num timesteps: 666000
+Best mean reward: 0.85 - Last mean reward per episode: 0.79
+Num timesteps: 667200
+Best mean reward: 0.85 - Last mean reward per episode: 0.78
+Num timesteps: 668400
+Best mean reward: 0.85 - Last mean reward per episode: 0.81
+Num timesteps: 669600
+Best mean reward: 0.85 - Last mean reward per episode: 0.82
+Num timesteps: 670800
+Best mean reward: 0.85 - Last mean reward per episode: 0.77
+Num timesteps: 672000
+Best mean reward: 0.85 - Last mean reward per episode: 0.77
+Num timesteps: 673200
+Best mean reward: 0.85 - Last mean reward per episode: 0.83
+Num timesteps: 674400
+Best mean reward: 0.85 - Last mean reward per episode: 0.83
+Num timesteps: 675600
+Best mean reward: 0.85 - Last mean reward per episode: 0.83
+Num timesteps: 676800
+Best mean reward: 0.85 - Last mean reward per episode: 0.72
+Num timesteps: 678000
+Best mean reward: 0.85 - Last mean reward per episode: 0.79
+Num timesteps: 679200
+Best mean reward: 0.85 - Last mean reward per episode: 0.86
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 680400
+Best mean reward: 0.86 - Last mean reward per episode: 0.73
+Num timesteps: 681600
+Best mean reward: 0.86 - Last mean reward per episode: 0.70
+Num timesteps: 682800
+Best mean reward: 0.86 - Last mean reward per episode: 0.85
+Num timesteps: 684000
+Best mean reward: 0.86 - Last mean reward per episode: 0.82
+Num timesteps: 685200
+Best mean reward: 0.86 - Last mean reward per episode: 0.72
+Num timesteps: 686400
+Best mean reward: 0.86 - Last mean reward per episode: 0.78
+Num timesteps: 687600
+Best mean reward: 0.86 - Last mean reward per episode: 0.73
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.05       |
+|    ep_rew_mean          | 0.759      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 28         |
+|    time_elapsed         | 335370     |
+|    total_timesteps      | 688128     |
+| train/                  |            |
+|    approx_kl            | 0.23848522 |
+|    clip_fraction        | 0.627      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.00138   |
+|    explained_variance   | 0.314      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0355    |
+|    n_updates            | 270        |
+|    policy_gradient_loss | -0.0637    |
+|    std                  | 0.239      |
+|    value_loss           | 0.137      |
+----------------------------------------
+Num timesteps: 688800
+Best mean reward: 0.86 - Last mean reward per episode: 0.83
+Num timesteps: 690000
+Best mean reward: 0.86 - Last mean reward per episode: 0.87
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 691200
+Best mean reward: 0.87 - Last mean reward per episode: 0.77
+Num timesteps: 692400
+Best mean reward: 0.87 - Last mean reward per episode: 0.79
+Num timesteps: 693600
+Best mean reward: 0.87 - Last mean reward per episode: 0.86
+Num timesteps: 694800
+Best mean reward: 0.87 - Last mean reward per episode: 0.81
+Num timesteps: 696000
+Best mean reward: 0.87 - Last mean reward per episode: 0.83
+Num timesteps: 697200
+Best mean reward: 0.87 - Last mean reward per episode: 0.83
+Num timesteps: 698400
+Best mean reward: 0.87 - Last mean reward per episode: 0.76
+Num timesteps: 699600
+Best mean reward: 0.87 - Last mean reward per episode: 0.76
+Num timesteps: 700800
+Best mean reward: 0.87 - Last mean reward per episode: 0.77
+Num timesteps: 702000
+Best mean reward: 0.87 - Last mean reward per episode: 0.80
+Num timesteps: 703200
+Best mean reward: 0.87 - Last mean reward per episode: 0.85
+Num timesteps: 704400
+Best mean reward: 0.87 - Last mean reward per episode: 0.84
+Num timesteps: 705600
+Best mean reward: 0.87 - Last mean reward per episode: 0.77
+Num timesteps: 706800
+Best mean reward: 0.87 - Last mean reward per episode: 0.85
+Num timesteps: 708000
+Best mean reward: 0.87 - Last mean reward per episode: 0.85
+Num timesteps: 709200
+Best mean reward: 0.87 - Last mean reward per episode: 0.77
+Num timesteps: 710400
+Best mean reward: 0.87 - Last mean reward per episode: 0.85
+Num timesteps: 711600
+Best mean reward: 0.87 - Last mean reward per episode: 0.84
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.14       |
+|    ep_rew_mean          | 0.74000007 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 29         |
+|    time_elapsed         | 346619     |
+|    total_timesteps      | 712704     |
+| train/                  |            |
+|    approx_kl            | 0.25520766 |
+|    clip_fraction        | 0.636      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 0.175      |
+|    explained_variance   | 0.279      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0428    |
+|    n_updates            | 280        |
+|    policy_gradient_loss | -0.0591    |
+|    std                  | 0.226      |
+|    value_loss           | 0.135      |
+----------------------------------------
+Num timesteps: 712800
+Best mean reward: 0.87 - Last mean reward per episode: 0.73
+Num timesteps: 714000
+Best mean reward: 0.87 - Last mean reward per episode: 0.89
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 715200
+Best mean reward: 0.89 - Last mean reward per episode: 0.82
+Num timesteps: 716400
+Best mean reward: 0.89 - Last mean reward per episode: 0.77
+Num timesteps: 717600
+Best mean reward: 0.89 - Last mean reward per episode: 0.86
+Num timesteps: 718800
+Best mean reward: 0.89 - Last mean reward per episode: 0.83
+Num timesteps: 720000
+Best mean reward: 0.89 - Last mean reward per episode: 0.80
+Num timesteps: 721200
+Best mean reward: 0.89 - Last mean reward per episode: 0.79
+Num timesteps: 722400
+Best mean reward: 0.89 - Last mean reward per episode: 0.84
+Num timesteps: 723600
+Best mean reward: 0.89 - Last mean reward per episode: 0.86
+Num timesteps: 724800
+Best mean reward: 0.89 - Last mean reward per episode: 0.77
+Num timesteps: 726000
+Best mean reward: 0.89 - Last mean reward per episode: 0.84
+Num timesteps: 727200
+Best mean reward: 0.89 - Last mean reward per episode: 0.89
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 728400
+Best mean reward: 0.89 - Last mean reward per episode: 0.86
+Num timesteps: 729600
+Best mean reward: 0.89 - Last mean reward per episode: 0.87
+Num timesteps: 730800
+Best mean reward: 0.89 - Last mean reward per episode: 0.85
+Num timesteps: 732000
+Best mean reward: 0.89 - Last mean reward per episode: 0.83
+Num timesteps: 733200
+Best mean reward: 0.89 - Last mean reward per episode: 0.86
+Num timesteps: 734400
+Best mean reward: 0.89 - Last mean reward per episode: 0.81
+Num timesteps: 735600
+Best mean reward: 0.89 - Last mean reward per episode: 0.87
+Num timesteps: 736800
+Best mean reward: 0.89 - Last mean reward per episode: 0.84
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2.05      |
+|    ep_rew_mean          | 0.815     |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 30        |
+|    time_elapsed         | 357839    |
+|    total_timesteps      | 737280    |
+| train/                  |           |
+|    approx_kl            | 0.2488416 |
+|    clip_fraction        | 0.644     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | 0.361     |
+|    explained_variance   | 0.285     |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.0303   |
+|    n_updates            | 290       |
+|    policy_gradient_loss | -0.0561   |
+|    std                  | 0.213     |
+|    value_loss           | 0.122     |
+---------------------------------------
+Num timesteps: 738000
+Best mean reward: 0.89 - Last mean reward per episode: 0.82
+Num timesteps: 739200
+Best mean reward: 0.89 - Last mean reward per episode: 0.87
+Num timesteps: 740400
+Best mean reward: 0.89 - Last mean reward per episode: 0.91
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 741600
+Best mean reward: 0.91 - Last mean reward per episode: 0.81
+Num timesteps: 742800
+Best mean reward: 0.91 - Last mean reward per episode: 0.85
+Num timesteps: 744000
+Best mean reward: 0.91 - Last mean reward per episode: 0.80
+Num timesteps: 745200
+Best mean reward: 0.91 - Last mean reward per episode: 0.79
+Num timesteps: 746400
+Best mean reward: 0.91 - Last mean reward per episode: 0.85
+Num timesteps: 747600
+Best mean reward: 0.91 - Last mean reward per episode: 0.84
+Num timesteps: 748800
+Best mean reward: 0.91 - Last mean reward per episode: 0.78
+Num timesteps: 750000
+Best mean reward: 0.91 - Last mean reward per episode: 0.85
+Num timesteps: 751200
+Best mean reward: 0.91 - Last mean reward per episode: 0.88
+Num timesteps: 752400
+Best mean reward: 0.91 - Last mean reward per episode: 0.86
+Num timesteps: 753600
+Best mean reward: 0.91 - Last mean reward per episode: 0.80
+Num timesteps: 754800
+Best mean reward: 0.91 - Last mean reward per episode: 0.84
+Num timesteps: 756000
+Best mean reward: 0.91 - Last mean reward per episode: 0.81
+Num timesteps: 757200
+Best mean reward: 0.91 - Last mean reward per episode: 0.87
+Num timesteps: 758400
+Best mean reward: 0.91 - Last mean reward per episode: 0.83
+Num timesteps: 759600
+Best mean reward: 0.91 - Last mean reward per episode: 0.79
+Num timesteps: 760800
+Best mean reward: 0.91 - Last mean reward per episode: 0.85
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2         |
+|    ep_rew_mean          | 0.859     |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 31        |
+|    time_elapsed         | 368997    |
+|    total_timesteps      | 761856    |
+| train/                  |           |
+|    approx_kl            | 0.2795134 |
+|    clip_fraction        | 0.647     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | 0.532     |
+|    explained_variance   | 0.258     |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.0407   |
+|    n_updates            | 300       |
+|    policy_gradient_loss | -0.0528   |
+|    std                  | 0.201     |
+|    value_loss           | 0.113     |
+---------------------------------------
+Num timesteps: 762000
+Best mean reward: 0.91 - Last mean reward per episode: 0.87
+Num timesteps: 763200
+Best mean reward: 0.91 - Last mean reward per episode: 0.90
+Num timesteps: 764400
+Best mean reward: 0.91 - Last mean reward per episode: 0.88
+Num timesteps: 765600
+Best mean reward: 0.91 - Last mean reward per episode: 0.89
+Num timesteps: 766800
+Best mean reward: 0.91 - Last mean reward per episode: 0.84
+Num timesteps: 768000
+Best mean reward: 0.91 - Last mean reward per episode: 0.92
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 769200
+Best mean reward: 0.92 - Last mean reward per episode: 0.83
+Num timesteps: 770400
+Best mean reward: 0.92 - Last mean reward per episode: 0.91
+Num timesteps: 771600
+Best mean reward: 0.92 - Last mean reward per episode: 0.85
+Num timesteps: 772800
+Best mean reward: 0.92 - Last mean reward per episode: 0.88
+Num timesteps: 774000
+Best mean reward: 0.92 - Last mean reward per episode: 0.89
+Num timesteps: 775200
+Best mean reward: 0.92 - Last mean reward per episode: 0.91
+Num timesteps: 776400
+Best mean reward: 0.92 - Last mean reward per episode: 0.88
+Num timesteps: 777600
+Best mean reward: 0.92 - Last mean reward per episode: 0.92
+Num timesteps: 778800
+Best mean reward: 0.92 - Last mean reward per episode: 0.88
+Num timesteps: 780000
+Best mean reward: 0.92 - Last mean reward per episode: 0.89
+Num timesteps: 781200
+Best mean reward: 0.92 - Last mean reward per episode: 0.85
+Num timesteps: 782400
+Best mean reward: 0.92 - Last mean reward per episode: 0.85
+Num timesteps: 783600
+Best mean reward: 0.92 - Last mean reward per episode: 0.87
+Num timesteps: 784800
+Best mean reward: 0.92 - Last mean reward per episode: 0.93
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 786000
+Best mean reward: 0.93 - Last mean reward per episode: 0.90
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2.07      |
+|    ep_rew_mean          | 0.8360001 |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 32        |
+|    time_elapsed         | 380138    |
+|    total_timesteps      | 786432    |
+| train/                  |           |
+|    approx_kl            | 0.2701903 |
+|    clip_fraction        | 0.65      |
+|    clip_range           | 0.2       |
+|    entropy_loss         | 0.717     |
+|    explained_variance   | 0.245     |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.0438   |
+|    n_updates            | 310       |
+|    policy_gradient_loss | -0.0531   |
+|    std                  | 0.19      |
+|    value_loss           | 0.106     |
+---------------------------------------
+Num timesteps: 787200
+Best mean reward: 0.93 - Last mean reward per episode: 0.84
+Num timesteps: 788400
+Best mean reward: 0.93 - Last mean reward per episode: 0.93
+Num timesteps: 789600
+Best mean reward: 0.93 - Last mean reward per episode: 0.88
+Num timesteps: 790800
+Best mean reward: 0.93 - Last mean reward per episode: 0.90
+Num timesteps: 792000
+Best mean reward: 0.93 - Last mean reward per episode: 0.93
+Num timesteps: 793200
+Best mean reward: 0.93 - Last mean reward per episode: 0.86
+Num timesteps: 794400
+Best mean reward: 0.93 - Last mean reward per episode: 0.91
+Num timesteps: 795600
+Best mean reward: 0.93 - Last mean reward per episode: 0.90
+Num timesteps: 796800
+Best mean reward: 0.93 - Last mean reward per episode: 0.82
+Num timesteps: 798000
+Best mean reward: 0.93 - Last mean reward per episode: 0.94
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 799200
+Best mean reward: 0.94 - Last mean reward per episode: 0.85
+Num timesteps: 800400
+Best mean reward: 0.94 - Last mean reward per episode: 0.85
+Num timesteps: 801600
+Best mean reward: 0.94 - Last mean reward per episode: 0.97
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 802800
+Best mean reward: 0.97 - Last mean reward per episode: 0.80
+Num timesteps: 804000
+Best mean reward: 0.97 - Last mean reward per episode: 0.86
+Num timesteps: 805200
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 806400
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 807600
+Best mean reward: 0.97 - Last mean reward per episode: 0.92
+Num timesteps: 808800
+Best mean reward: 0.97 - Last mean reward per episode: 0.87
+Num timesteps: 810000
+Best mean reward: 0.97 - Last mean reward per episode: 0.79
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.858      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 33         |
+|    time_elapsed         | 391269     |
+|    total_timesteps      | 811008     |
+| train/                  |            |
+|    approx_kl            | 0.31859073 |
+|    clip_fraction        | 0.661      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 0.888      |
+|    explained_variance   | 0.206      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0331    |
+|    n_updates            | 320        |
+|    policy_gradient_loss | -0.0452    |
+|    std                  | 0.179      |
+|    value_loss           | 0.0962     |
+----------------------------------------
+Num timesteps: 811200
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 812400
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 813600
+Best mean reward: 0.97 - Last mean reward per episode: 0.96
+Num timesteps: 814800
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 816000
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 817200
+Best mean reward: 0.97 - Last mean reward per episode: 0.95
+Num timesteps: 818400
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 819600
+Best mean reward: 0.97 - Last mean reward per episode: 0.88
+Num timesteps: 820800
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 822000
+Best mean reward: 0.97 - Last mean reward per episode: 0.88
+Num timesteps: 823200
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 824400
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 825600
+Best mean reward: 0.97 - Last mean reward per episode: 0.86
+Num timesteps: 826800
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 828000
+Best mean reward: 0.97 - Last mean reward per episode: 0.96
+Num timesteps: 829200
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 830400
+Best mean reward: 0.97 - Last mean reward per episode: 0.86
+Num timesteps: 831600
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 832800
+Best mean reward: 0.97 - Last mean reward per episode: 0.97
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 834000
+Best mean reward: 0.97 - Last mean reward per episode: 0.92
+Num timesteps: 835200
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2.02      |
+|    ep_rew_mean          | 0.9129999 |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 34        |
+|    time_elapsed         | 402435    |
+|    total_timesteps      | 835584    |
+| train/                  |           |
+|    approx_kl            | 0.3339115 |
+|    clip_fraction        | 0.665     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | 1.07      |
+|    explained_variance   | 0.182     |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.0417   |
+|    n_updates            | 330       |
+|    policy_gradient_loss | -0.0414   |
+|    std                  | 0.17      |
+|    value_loss           | 0.0865    |
+---------------------------------------
+Num timesteps: 836400
+Best mean reward: 0.97 - Last mean reward per episode: 0.92
+Num timesteps: 837600
+Best mean reward: 0.97 - Last mean reward per episode: 0.88
+Num timesteps: 838800
+Best mean reward: 0.97 - Last mean reward per episode: 0.96
+Num timesteps: 840000
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 841200
+Best mean reward: 0.97 - Last mean reward per episode: 0.93
+Num timesteps: 842400
+Best mean reward: 0.97 - Last mean reward per episode: 0.87
+Num timesteps: 843600
+Best mean reward: 0.97 - Last mean reward per episode: 0.93
+Num timesteps: 844800
+Best mean reward: 0.97 - Last mean reward per episode: 0.96
+Num timesteps: 846000
+Best mean reward: 0.97 - Last mean reward per episode: 0.88
+Num timesteps: 847200
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 848400
+Best mean reward: 0.97 - Last mean reward per episode: 0.85
+Num timesteps: 849600
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 850800
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 852000
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 853200
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 854400
+Best mean reward: 0.97 - Last mean reward per episode: 0.95
+Num timesteps: 855600
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 856800
+Best mean reward: 0.97 - Last mean reward per episode: 0.92
+Num timesteps: 858000
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 859200
+Best mean reward: 0.97 - Last mean reward per episode: 0.94
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1.99       |
+|    ep_rew_mean          | 0.93399996 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 35         |
+|    time_elapsed         | 413572     |
+|    total_timesteps      | 860160     |
+| train/                  |            |
+|    approx_kl            | 0.33073688 |
+|    clip_fraction        | 0.679      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 1.23       |
+|    explained_variance   | 0.141      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0338    |
+|    n_updates            | 340        |
+|    policy_gradient_loss | -0.034     |
+|    std                  | 0.161      |
+|    value_loss           | 0.0762     |
+----------------------------------------
+Num timesteps: 860400
+Best mean reward: 0.97 - Last mean reward per episode: 0.93
+Num timesteps: 861600
+Best mean reward: 0.97 - Last mean reward per episode: 0.81
+Num timesteps: 862800
+Best mean reward: 0.97 - Last mean reward per episode: 0.93
+Num timesteps: 864000
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 865200
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 866400
+Best mean reward: 0.97 - Last mean reward per episode: 0.97
+Num timesteps: 867600
+Best mean reward: 0.97 - Last mean reward per episode: 0.96
+Num timesteps: 868800
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 870000
+Best mean reward: 0.97 - Last mean reward per episode: 0.90
+Num timesteps: 871200
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 872400
+Best mean reward: 0.97 - Last mean reward per episode: 0.92
+Num timesteps: 873600
+Best mean reward: 0.97 - Last mean reward per episode: 0.94
+Num timesteps: 874800
+Best mean reward: 0.97 - Last mean reward per episode: 0.94
+Num timesteps: 876000
+Best mean reward: 0.97 - Last mean reward per episode: 0.87
+Num timesteps: 877200
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 878400
+Best mean reward: 0.97 - Last mean reward per episode: 0.89
+Num timesteps: 879600
+Best mean reward: 0.97 - Last mean reward per episode: 0.91
+Num timesteps: 880800
+Best mean reward: 0.97 - Last mean reward per episode: 0.97
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 882000
+Best mean reward: 0.97 - Last mean reward per episode: 0.92
+Num timesteps: 883200
+Best mean reward: 0.97 - Last mean reward per episode: 0.94
+Num timesteps: 884400
+Best mean reward: 0.97 - Last mean reward per episode: 0.95
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.02       |
+|    ep_rew_mean          | 0.923      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 36         |
+|    time_elapsed         | 424678     |
+|    total_timesteps      | 884736     |
+| train/                  |            |
+|    approx_kl            | 0.30130464 |
+|    clip_fraction        | 0.669      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 1.38       |
+|    explained_variance   | 0.131      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0349    |
+|    n_updates            | 350        |
+|    policy_gradient_loss | -0.0321    |
+|    std                  | 0.153      |
+|    value_loss           | 0.068      |
+----------------------------------------
+Num timesteps: 885600
+Best mean reward: 0.97 - Last mean reward per episode: 0.98
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 886800
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 888000
+Best mean reward: 0.98 - Last mean reward per episode: 0.87
+Num timesteps: 889200
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 890400
+Best mean reward: 0.98 - Last mean reward per episode: 0.91
+Num timesteps: 891600
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 892800
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 894000
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 895200
+Best mean reward: 0.98 - Last mean reward per episode: 0.87
+Num timesteps: 896400
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 897600
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 898800
+Best mean reward: 0.98 - Last mean reward per episode: 0.92
+Num timesteps: 900000
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 901200
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 902400
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 903600
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 904800
+Best mean reward: 0.98 - Last mean reward per episode: 0.91
+Num timesteps: 906000
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 907200
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 908400
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.03       |
+|    ep_rew_mean          | 0.91199994 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 37         |
+|    time_elapsed         | 435773     |
+|    total_timesteps      | 909312     |
+| train/                  |            |
+|    approx_kl            | 0.35121894 |
+|    clip_fraction        | 0.694      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 1.53       |
+|    explained_variance   | 0.12       |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0384    |
+|    n_updates            | 360        |
+|    policy_gradient_loss | -0.0205    |
+|    std                  | 0.146      |
+|    value_loss           | 0.0604     |
+----------------------------------------
+Num timesteps: 909600
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 910800
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 912000
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 913200
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 914400
+Best mean reward: 0.98 - Last mean reward per episode: 0.91
+Num timesteps: 915600
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 916800
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 918000
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 919200
+Best mean reward: 0.98 - Last mean reward per episode: 0.90
+Num timesteps: 920400
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 921600
+Best mean reward: 0.98 - Last mean reward per episode: 0.92
+Num timesteps: 922800
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 924000
+Best mean reward: 0.98 - Last mean reward per episode: 0.91
+Num timesteps: 925200
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 926400
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 927600
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 928800
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 930000
+Best mean reward: 0.98 - Last mean reward per episode: 0.92
+Num timesteps: 931200
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 932400
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 933600
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.945      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 38         |
+|    time_elapsed         | 446887     |
+|    total_timesteps      | 933888     |
+| train/                  |            |
+|    approx_kl            | 0.34433866 |
+|    clip_fraction        | 0.689      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 1.66       |
+|    explained_variance   | 0.0743     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0402    |
+|    n_updates            | 370        |
+|    policy_gradient_loss | -0.0233    |
+|    std                  | 0.14       |
+|    value_loss           | 0.055      |
+----------------------------------------
+Num timesteps: 934800
+Best mean reward: 0.98 - Last mean reward per episode: 0.92
+Num timesteps: 936000
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 937200
+Best mean reward: 0.98 - Last mean reward per episode: 0.92
+Num timesteps: 938400
+Best mean reward: 0.98 - Last mean reward per episode: 0.95
+Num timesteps: 939600
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 940800
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 942000
+Best mean reward: 0.98 - Last mean reward per episode: 0.91
+Num timesteps: 943200
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 944400
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 945600
+Best mean reward: 0.98 - Last mean reward per episode: 0.91
+Num timesteps: 946800
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 948000
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 949200
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 950400
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 951600
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 952800
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 954000
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 955200
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 956400
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 957600
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.96699995 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 39         |
+|    time_elapsed         | 457994     |
+|    total_timesteps      | 958464     |
+| train/                  |            |
+|    approx_kl            | 0.37810957 |
+|    clip_fraction        | 0.7        |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 1.79       |
+|    explained_variance   | 0.105      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0392    |
+|    n_updates            | 380        |
+|    policy_gradient_loss | -0.0176    |
+|    std                  | 0.134      |
+|    value_loss           | 0.0513     |
+----------------------------------------
+Num timesteps: 958800
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 960000
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 961200
+Best mean reward: 0.98 - Last mean reward per episode: 0.95
+Num timesteps: 962400
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 963600
+Best mean reward: 0.98 - Last mean reward per episode: 0.95
+Num timesteps: 964800
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 966000
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 967200
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 968400
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 969600
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 970800
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 972000
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 973200
+Best mean reward: 0.98 - Last mean reward per episode: 0.93
+Num timesteps: 974400
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 975600
+Best mean reward: 0.98 - Last mean reward per episode: 0.94
+Num timesteps: 976800
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 978000
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 979200
+Best mean reward: 0.98 - Last mean reward per episode: 0.88
+Num timesteps: 980400
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 981600
+Best mean reward: 0.98 - Last mean reward per episode: 0.98
+Num timesteps: 982800
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2.01       |
+|    ep_rew_mean          | 0.96800005 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 40         |
+|    time_elapsed         | 469145     |
+|    total_timesteps      | 983040     |
+| train/                  |            |
+|    approx_kl            | 0.3706789  |
+|    clip_fraction        | 0.705      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 1.92       |
+|    explained_variance   | 0.0821     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0312    |
+|    n_updates            | 390        |
+|    policy_gradient_loss | -0.0171    |
+|    std                  | 0.129      |
+|    value_loss           | 0.0463     |
+----------------------------------------
+Num timesteps: 984000
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 985200
+Best mean reward: 0.98 - Last mean reward per episode: 0.97
+Num timesteps: 986400
+Best mean reward: 0.98 - Last mean reward per episode: 0.96
+Num timesteps: 987600
+Best mean reward: 0.98 - Last mean reward per episode: 0.99
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 988800
+Best mean reward: 0.99 - Last mean reward per episode: 0.97
+Num timesteps: 990000
+Best mean reward: 0.99 - Last mean reward per episode: 0.99
+Num timesteps: 991200
+Best mean reward: 0.99 - Last mean reward per episode: 0.98
+Num timesteps: 992400
+Best mean reward: 0.99 - Last mean reward per episode: 0.94
+Num timesteps: 993600
+Best mean reward: 0.99 - Last mean reward per episode: 0.99
+Num timesteps: 994800
+Best mean reward: 0.99 - Last mean reward per episode: 0.99
+Num timesteps: 996000
+Best mean reward: 0.99 - Last mean reward per episode: 1.00
+Saving new best model to models/train_stack4/best_model
+Num timesteps: 997200
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 998400
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 999600
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1000800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1002000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1003200
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1004400
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 1005600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1006800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.96699995 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 41         |
+|    time_elapsed         | 480267     |
+|    total_timesteps      | 1007616    |
+| train/                  |            |
+|    approx_kl            | 0.4345671  |
+|    clip_fraction        | 0.721      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.03       |
+|    explained_variance   | 0.0391     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0422    |
+|    n_updates            | 400        |
+|    policy_gradient_loss | -0.00726   |
+|    std                  | 0.124      |
+|    value_loss           | 0.0378     |
+----------------------------------------
+Num timesteps: 1008000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1009200
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1010400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1011600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1012800
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1014000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1015200
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 1016400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1017600
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 1018800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1020000
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1021200
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 1022400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1023600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1024800
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1026000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1027200
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1028400
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 1029600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1030800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1032000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.989      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 42         |
+|    time_elapsed         | 491404     |
+|    total_timesteps      | 1032192    |
+| train/                  |            |
+|    approx_kl            | 0.37129715 |
+|    clip_fraction        | 0.706      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.13       |
+|    explained_variance   | 0.0266     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0339    |
+|    n_updates            | 410        |
+|    policy_gradient_loss | -0.00819   |
+|    std                  | 0.12       |
+|    value_loss           | 0.034      |
+----------------------------------------
+Num timesteps: 1033200
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1034400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1035600
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1036800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1038000
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 1039200
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1040400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1041600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1042800
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1044000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1045200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1046400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1047600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1048800
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1050000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1051200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1052400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1053600
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1054800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1056000
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.956      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 43         |
+|    time_elapsed         | 502484     |
+|    total_timesteps      | 1056768    |
+| train/                  |            |
+|    approx_kl            | 0.40179428 |
+|    clip_fraction        | 0.717      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.23       |
+|    explained_variance   | 0.0197     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0257    |
+|    n_updates            | 420        |
+|    policy_gradient_loss | -0.000923  |
+|    std                  | 0.116      |
+|    value_loss           | 0.035      |
+----------------------------------------
+Num timesteps: 1057200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1058400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1059600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1060800
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1062000
+Best mean reward: 1.00 - Last mean reward per episode: 0.93
+Num timesteps: 1063200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1064400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1065600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1066800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1068000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1069200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1070400
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1071600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1072800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1074000
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1075200
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1076400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1077600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1078800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1080000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1081200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.96699995 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 44         |
+|    time_elapsed         | 513543     |
+|    total_timesteps      | 1081344    |
+| train/                  |            |
+|    approx_kl            | 0.39722332 |
+|    clip_fraction        | 0.708      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.34       |
+|    explained_variance   | 0.0189     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0371    |
+|    n_updates            | 430        |
+|    policy_gradient_loss | -0.0121    |
+|    std                  | 0.112      |
+|    value_loss           | 0.0303     |
+----------------------------------------
+Num timesteps: 1082400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1083600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1084800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1086000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1087200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1088400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1089600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1090800
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1092000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1093200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1094400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1095600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1096800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1098000
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1099200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1100400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1101600
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1102800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1104000
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1105200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.97800004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 45         |
+|    time_elapsed         | 524589     |
+|    total_timesteps      | 1105920    |
+| train/                  |            |
+|    approx_kl            | 0.45852128 |
+|    clip_fraction        | 0.715      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.44       |
+|    explained_variance   | 0.00202    |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0313    |
+|    n_updates            | 440        |
+|    policy_gradient_loss | -0.00478   |
+|    std                  | 0.108      |
+|    value_loss           | 0.0263     |
+----------------------------------------
+Num timesteps: 1106400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1107600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1108800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1110000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1111200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1112400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1113600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1114800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1116000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1117200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1118400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1119600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1120800
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1122000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1123200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1124400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1125600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1126800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1128000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1129200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1130400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.97800004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 46         |
+|    time_elapsed         | 535670     |
+|    total_timesteps      | 1130496    |
+| train/                  |            |
+|    approx_kl            | 0.41264227 |
+|    clip_fraction        | 0.718      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.53       |
+|    explained_variance   | 0.00426    |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0372    |
+|    n_updates            | 450        |
+|    policy_gradient_loss | -0.00452   |
+|    std                  | 0.105      |
+|    value_loss           | 0.0236     |
+----------------------------------------
+Num timesteps: 1131600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1132800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1134000
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1135200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1136400
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1137600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1138800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1140000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1141200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1142400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1143600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1144800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1146000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1147200
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1148400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1149600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1150800
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1152000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1153200
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1154400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.97800004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 47         |
+|    time_elapsed         | 546737     |
+|    total_timesteps      | 1155072    |
+| train/                  |            |
+|    approx_kl            | 0.44741392 |
+|    clip_fraction        | 0.719      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.63       |
+|    explained_variance   | -0.013     |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0361    |
+|    n_updates            | 460        |
+|    policy_gradient_loss | -0.008     |
+|    std                  | 0.101      |
+|    value_loss           | 0.0215     |
+----------------------------------------
+Num timesteps: 1155600
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1156800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1158000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1159200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1160400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1161600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1162800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1164000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1165200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1166400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1167600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1168800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1170000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1171200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1172400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1173600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1174800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1176000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1177200
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1178400
+Best mean reward: 1.00 - Last mean reward per episode: 0.95
+Num timesteps: 1179600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.989      |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 48         |
+|    time_elapsed         | 557823     |
+|    total_timesteps      | 1179648    |
+| train/                  |            |
+|    approx_kl            | 0.46646157 |
+|    clip_fraction        | 0.732      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.74       |
+|    explained_variance   | -0.000164  |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0336    |
+|    n_updates            | 470        |
+|    policy_gradient_loss | 0.000391   |
+|    std                  | 0.0974     |
+|    value_loss           | 0.0229     |
+----------------------------------------
+Num timesteps: 1180800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1182000
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1183200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1184400
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1185600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1186800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1188000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1189200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1190400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1191600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1192800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1194000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1195200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1196400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1197600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1198800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1200000
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1201200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1202400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1203600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.96699995 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 49         |
+|    time_elapsed         | 568949     |
+|    total_timesteps      | 1204224    |
+| train/                  |            |
+|    approx_kl            | 0.47517934 |
+|    clip_fraction        | 0.74       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.85       |
+|    explained_variance   | -0.0103    |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0417    |
+|    n_updates            | 480        |
+|    policy_gradient_loss | 0.000993   |
+|    std                  | 0.0942     |
+|    value_loss           | 0.0187     |
+----------------------------------------
+Num timesteps: 1204800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1206000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1207200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1208400
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1209600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1210800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1212000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1213200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1214400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1215600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1216800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1218000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1219200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1220400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1221600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1222800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1224000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1225200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1226400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1227600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1228800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 1.0        |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 50         |
+|    time_elapsed         | 580080     |
+|    total_timesteps      | 1228800    |
+| train/                  |            |
+|    approx_kl            | 0.47800517 |
+|    clip_fraction        | 0.739      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 2.95       |
+|    explained_variance   | -0.00494   |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.036     |
+|    n_updates            | 490        |
+|    policy_gradient_loss | -0.00148   |
+|    std                  | 0.0911     |
+|    value_loss           | 0.0186     |
+----------------------------------------
+Num timesteps: 1230000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1231200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1232400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1233600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1234800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1236000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1237200
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1238400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1239600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1240800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1242000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1243200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1244400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1245600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1246800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1248000
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1249200
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1250400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1251600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1252800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 1.0        |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 51         |
+|    time_elapsed         | 591188     |
+|    total_timesteps      | 1253376    |
+| train/                  |            |
+|    approx_kl            | 0.56006587 |
+|    clip_fraction        | 0.759      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 3.02       |
+|    explained_variance   | -0.0232    |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0354    |
+|    n_updates            | 500        |
+|    policy_gradient_loss | 0.0108     |
+|    std                  | 0.0887     |
+|    value_loss           | 0.0149     |
+----------------------------------------
+Num timesteps: 1254000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1255200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1256400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1257600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1258800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1260000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1261200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1262400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1263600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1264800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1266000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1267200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1268400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1269600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1270800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1272000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1273200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1274400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1275600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1276800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.97800004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 52         |
+|    time_elapsed         | 602348     |
+|    total_timesteps      | 1277952    |
+| train/                  |            |
+|    approx_kl            | 0.505446   |
+|    clip_fraction        | 0.74       |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 3.1        |
+|    explained_variance   | -0.000996  |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0329    |
+|    n_updates            | 510        |
+|    policy_gradient_loss | -0.00147   |
+|    std                  | 0.0861     |
+|    value_loss           | 0.0158     |
+----------------------------------------
+Num timesteps: 1278000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1279200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1280400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1281600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1282800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1284000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1285200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1286400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1287600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1288800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1290000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1291200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1292400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1293600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1294800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1296000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1297200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1298400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1299600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1300800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1302000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2         |
+|    ep_rew_mean          | 0.989     |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 53        |
+|    time_elapsed         | 613511    |
+|    total_timesteps      | 1302528   |
+| train/                  |           |
+|    approx_kl            | 0.4688313 |
+|    clip_fraction        | 0.747     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | 3.18      |
+|    explained_variance   | -0.00115  |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.00871  |
+|    n_updates            | 520       |
+|    policy_gradient_loss | 0.00391   |
+|    std                  | 0.084     |
+|    value_loss           | 0.0155    |
+---------------------------------------
+Num timesteps: 1303200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1304400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1305600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1306800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1308000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1309200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1310400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1311600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1312800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1314000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1315200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1316400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1317600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1318800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1320000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1321200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1322400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1323600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1324800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1326000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2         |
+|    ep_rew_mean          | 0.989     |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 54        |
+|    time_elapsed         | 624604    |
+|    total_timesteps      | 1327104   |
+| train/                  |           |
+|    approx_kl            | 0.5661784 |
+|    clip_fraction        | 0.762     |
+|    clip_range           | 0.2       |
+|    entropy_loss         | 3.25      |
+|    explained_variance   | -0.0188   |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.0249   |
+|    n_updates            | 530       |
+|    policy_gradient_loss | 0.00663   |
+|    std                  | 0.0818    |
+|    value_loss           | 0.0136    |
+---------------------------------------
+Num timesteps: 1327200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1328400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1329600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1330800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1332000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1333200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1334400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1335600
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1336800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1338000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1339200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1340400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1341600
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1342800
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1344000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1345200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1346400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1347600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1348800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1350000
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1351200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.97800004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 55         |
+|    time_elapsed         | 635726     |
+|    total_timesteps      | 1351680    |
+| train/                  |            |
+|    approx_kl            | 0.56987673 |
+|    clip_fraction        | 0.764      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 3.33       |
+|    explained_variance   | -0.0103    |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0324    |
+|    n_updates            | 540        |
+|    policy_gradient_loss | 0.00663    |
+|    std                  | 0.0798     |
+|    value_loss           | 0.0159     |
+----------------------------------------
+Num timesteps: 1352400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1353600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1354800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1356000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1357200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1358400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1359600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1360800
+Best mean reward: 1.00 - Last mean reward per episode: 0.96
+Num timesteps: 1362000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1363200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1364400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1365600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1366800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1368000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1369200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1370400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1371600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1372800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1374000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1375200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+---------------------------------------
+| rollout/                |           |
+|    ep_len_mean          | 2         |
+|    ep_rew_mean          | 0.989     |
+| time/                   |           |
+|    fps                  | 2         |
+|    iterations           | 56        |
+|    time_elapsed         | 646866    |
+|    total_timesteps      | 1376256   |
+| train/                  |           |
+|    approx_kl            | 0.5515757 |
+|    clip_fraction        | 0.76      |
+|    clip_range           | 0.2       |
+|    entropy_loss         | 3.4       |
+|    explained_variance   | -0.00354  |
+|    learning_rate        | 0.0003    |
+|    loss                 | -0.0163   |
+|    n_updates            | 550       |
+|    policy_gradient_loss | 0.0069    |
+|    std                  | 0.0778    |
+|    value_loss           | 0.0144    |
+---------------------------------------
+Num timesteps: 1376400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1377600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1378800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1380000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1381200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1382400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1383600
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1384800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1386000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1387200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1388400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1389600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1390800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1392000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1393200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1394400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1395600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1396800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1398000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1399200
+Best mean reward: 1.00 - Last mean reward per episode: 0.97
+Num timesteps: 1400400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 0.97800004 |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 57         |
+|    time_elapsed         | 657989     |
+|    total_timesteps      | 1400832    |
+| train/                  |            |
+|    approx_kl            | 0.61680627 |
+|    clip_fraction        | 0.757      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 3.47       |
+|    explained_variance   | -0.00811   |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0233    |
+|    n_updates            | 560        |
+|    policy_gradient_loss | 0.00736    |
+|    std                  | 0.0757     |
+|    value_loss           | 0.0118     |
+----------------------------------------
+Num timesteps: 1401600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1402800
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1404000
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1405200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1406400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1407600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1408800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1410000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1411200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1412400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1413600
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1414800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1416000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1417200
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1418400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1419600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1420800
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1422000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1423200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1424400
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 2          |
+|    ep_rew_mean          | 1.0        |
+| time/                   |            |
+|    fps                  | 2          |
+|    iterations           | 58         |
+|    time_elapsed         | 669124     |
+|    total_timesteps      | 1425408    |
+| train/                  |            |
+|    approx_kl            | 0.63899595 |
+|    clip_fraction        | 0.766      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | 3.54       |
+|    explained_variance   | -0.0138    |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0285    |
+|    n_updates            | 570        |
+|    policy_gradient_loss | 0.0562     |
+|    std                  | 0.0738     |
+|    value_loss           | 0.0137     |
+----------------------------------------
+Num timesteps: 1425600
+Best mean reward: 1.00 - Last mean reward per episode: 0.94
+Num timesteps: 1426800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1428000
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1429200
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1430400
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1431600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1432800
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1434000
+Best mean reward: 1.00 - Last mean reward per episode: 1.00
+Num timesteps: 1435200
+Best mean reward: 1.00 - Last mean reward per episode: 0.98
+Num timesteps: 1436400
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
+Num timesteps: 1437600
+Best mean reward: 1.00 - Last mean reward per episode: 0.99
