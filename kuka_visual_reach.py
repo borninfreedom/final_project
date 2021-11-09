@@ -15,11 +15,8 @@ import torch
 import os
 import logging
 
-logger=EasyLog(log_level=logging.INFO)
+logger = EasyLog(log_level=logging.INFO)
 
-
-# change log
-# dv=0.1 in _step func
 
 class KukaVisualReachEnv(gym.Env):
     metadata = {
@@ -31,9 +28,10 @@ class KukaVisualReachEnv(gym.Env):
     kImageSize: dict = {'width': 96, 'height': 96}
     kFinalImageSize: dict = {'width': 84, 'height': 84}
 
-    def __init__(self, is_render: bool = False, is_good_view: bool = False, skip: int = 4):
+    def __init__(self, is_render: bool = False, is_good_view: bool = False, skip: int = 4, dv: float = 0.05):
 
         self.skip = skip
+        self.dv = dv
         self.is_render = is_render
         self.is_good_view = is_good_view
 
@@ -225,7 +223,7 @@ class KukaVisualReachEnv(gym.Env):
     def reset(self):
         state = self._reset()
         states = np.concatenate([state for _ in range(self.skip)], 0)[None, :, :, :]
-        return np.squeeze(self.random_crop(states,self.kFinalImageSize['width']))
+        return np.squeeze(self.random_crop(states, self.kFinalImageSize['width']))
 
     def _process_image(self, image):
         """Convert the RGB pic to gray pic and add a channel 1
@@ -257,7 +255,7 @@ class KukaVisualReachEnv(gym.Env):
         return cropped
 
     def _step(self, action: np.float32):
-        dv = 0.1
+        dv = self.dv
         dx = action[0] * dv
         dy = action[1] * dv
         dz = action[2] * dv
@@ -359,7 +357,7 @@ class KukaVisualReachEnv(gym.Env):
                 states.append(state)
         states = np.concatenate(states, 0)[None, :, :, :]
         logger.debug(f'total_reward={total_reward}')
-        return np.squeeze(self.random_crop(states,self.kFinalImageSize['width'])), total_reward, done,{}
+        return np.squeeze(self.random_crop(states, self.kFinalImageSize['width'])), total_reward, done, {}
 
     def close(self):
         p.disconnect()
@@ -373,4 +371,3 @@ class KukaVisualReachEnv(gym.Env):
         # index it with str like dict. I think it can be improved
         # that return value is a dict rather than tuple.
         return force_sensor_value
-

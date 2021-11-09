@@ -1,31 +1,128 @@
-from typing import Any, List, Tuple, Union, Final, Optional
+from typing import Any, List, Tuple, Union, Optional
 from easy_logx.easy_logx import EasyLog
 import pybullet as p
 import pybullet_data
-import gym
 from gym import spaces
 from gym.utils import seeding
-import numpy as np
-from math import sqrt
 import random
-import time
 import math
 import cv2
-import torch
-import os
 import logging
 import pandas as pd
-from os.path import exists
+
+from stable_baselines3 import PPO
+import gym
+import numpy as np
+import time
+import os
+from stable_baselines3.common.callbacks import BaseCallback
+from stable_baselines3.common.results_plotter import load_results, ts2xy, plot_results
+import pathlib
+import torch as th
+import torch.nn as nn
+from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
 
 pd.set_option("display.max_rows", None, "display.max_columns", None)
-logger = EasyLog(log_level=logging.DEBUG)
+logger = EasyLog(log_level=logging.ERROR)
 logger.add_filehandler(mode='a')
 
 sdf_loc = './sdf/'
 
-JOINT_INFO_TYPE: Final = 0
-JOINT_STATE_TYPE: Final = 1
-LINK_STATE_TYPE: Final = 2
+JOINT_INFO_TYPE = 0
+JOINT_STATE_TYPE = 1
+LINK_STATE_TYPE = 2
+
+# You can set the variable as:
+# 'ignition' : it will load ignition models
+# 'pybullet' : it will load pybullet built-in models
+# Overrall, ignition models are more realistic
+
+OBJECT_MODEL_TYPE: str = 'ignition'
+
+
+class CustomCNN(BaseFeaturesExtractor):
+    """
+    :param observation_space: (gym.Space)
+    :param features_dim: (int) Number of features extracted.
+        This corresponds to the number of unit for the last layer.
+    """
+
+    def __init__(self, observation_space: gym.spaces.Box, features_dim: int = 256):
+        super(CustomCNN, self).__init__(observation_space, features_dim)
+        # We assume CxHxW images (channels first)
+        # Re-ordering will be done by pre-preprocessing or wrapper
+        n_input_channels = observation_space.shape[0]
+        self.cnn = nn.Sequential(
+            nn.Conv2d(n_input_channels, 32, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(32, 32, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(32, 32, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(32, 32, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(),
+
+            nn.Flatten(),
+        )
+
+        # Compute shape by doing one forward pass
+        with th.no_grad():
+            n_flatten = self.cnn(
+                th.as_tensor(observation_space.sample()[None]).float()
+            ).shape[1]
+
+        self.linear = nn.Sequential(nn.Linear(n_flatten, features_dim), nn.ReLU())
+
+    def forward(self, observations: th.Tensor) -> th.Tensor:
+        return self.linear(self.cnn(observations))
+
+
+class SaveOnBestTrainingRewardCallback(BaseCallback):
+    """
+    Callback for saving a model (the check is done every ``check_freq`` steps)
+    based on the training reward (in practice, we recommend using ``EvalCallback``).
+
+    :param check_freq: (int)
+    :param log_dir: (str) Path to the folder where the model will be saved.
+      It must contains the file created by the ``Monitor`` wrapper.
+    :param verbose: (int)
+    """
+
+    def __init__(self, check_freq: int, log_dir: str, verbose=1):
+        super(SaveOnBestTrainingRewardCallback, self).__init__(verbose)
+        self.check_freq = check_freq
+        self.log_dir = log_dir
+        self.save_path = os.path.join(log_dir, 'best_model')
+        self.best_mean_reward = -np.inf
+
+    def _init_callback(self) -> None:
+        # Create folder if needed
+        if self.save_path is not None:
+            os.makedirs(self.save_path, exist_ok=True)
+
+    def _on_step(self) -> bool:
+        if self.n_calls % self.check_freq == 0:
+
+            # Retrieve training reward
+            x, y = ts2xy(load_results(self.log_dir), 'timesteps')
+            if len(x) > 0:
+                # Mean training reward over the last 100 episodes
+                mean_reward = np.mean(y[-100:])
+                if self.verbose > 0:
+                    print("Num timesteps: {}".format(self.num_timesteps))
+                    print(
+                        "Best mean reward: {:.2f} - Last mean reward per episode: {:.2f}".format(self.best_mean_reward,
+                                                                                                 mean_reward))
+
+                # New best model, you could save the agent here
+                if mean_reward > self.best_mean_reward:
+                    self.best_mean_reward = mean_reward
+                    # Example for saving best model
+                    if self.verbose > 0:
+                        print("Saving new best model to {}".format(self.save_path))
+                    self.model.save(self.save_path)
+
+        return True
 
 
 # change log
@@ -93,9 +190,9 @@ class KukaVisualGraspEnv(gym.Env):
         'video.frames_per_second': 50
     }
 
-    kMaxEpisodeSteps: Final = 700
-    kImageSize: Final = {'width': 96, 'height': 96}
-    kFinalImageSize: Final = {'width': 84, 'height': 84}
+    kMaxEpisodeSteps = 700
+    kImageSize = {'width': 96, 'height': 96}
+    kFinalImageSize = {'width': 84, 'height': 84}
 
     def __init__(self, is_render: bool = False, is_good_view: bool = False, skip: int = 4) -> None:
 
@@ -108,21 +205,21 @@ class KukaVisualGraspEnv(gym.Env):
         else:
             p.connect(p.DIRECT)
 
-        self.x_low_obs: Final = 0.3
-        self.x_high_obs: Final = 0.8
-        self.y_low_obs: Final = -0.3
-        self.y_high_obs: Final = 0.3
-        self.z_low_obs: Final = 0
-        self.z_high_obs: Final = 0.55
+        self.x_low_obs = 0.35
+        self.x_high_obs = 0.85
+        self.y_low_obs = -0.3
+        self.y_high_obs = 0.3
+        self.z_low_obs = 0
+        self.z_high_obs = 0.55
 
-        self.x_low_action: Final = -0.4
-        self.x_high_action: Final = 0.4
-        self.y_low_action: Final = -0.4
-        self.y_high_action: Final = 0.4
-        self.z_low_action: Final = -0.6
-        self.z_high_action: Final = 0.3
-        self.theta_low_action: Final = -1.57
-        self.theta_high_action: Final = 1.57
+        self.x_low_action = -0.5
+        self.x_high_action = 0.5
+        self.y_low_action = -0.6
+        self.y_high_action = 0.6
+        self.z_low_action = -0.6
+        self.z_high_action = 0.6
+        self.theta_low_action = -1.57
+        self.theta_high_action = 1.57
         self.step_counter = 0
 
         self.urdf_root_path = pybullet_data.getDataPath()
@@ -143,6 +240,8 @@ class KukaVisualGraspEnv(gym.Env):
             0.006418, 0.413184, -0.011401, -1.589317, 0.005379, 1.137684,
             0, 0, 0, 0, 0, 0
         ]
+
+        self.object_ids: List = []
 
         self.orientation = p.getQuaternionFromEuler(
             [0., -math.pi, 0])
@@ -197,6 +296,8 @@ class KukaVisualGraspEnv(gym.Env):
                                             shape=(skip, self.kFinalImageSize['width'], self.kFinalImageSize['height']),
                                             dtype=np.uint8)
 
+        self.objects_list: List = os.listdir('small_object_models')
+        self.reset_count:int=0
         self.seed()
         self.reset()
 
@@ -206,74 +307,109 @@ class KukaVisualGraspEnv(gym.Env):
 
     def _reset(self):
         self.step_counter = 0
+        self.reset_count+=1
 
-        p.resetSimulation()
         # p.configureDebugVisualizer(p.COV_ENABLE_RENDERING, 0)
         self.terminated = False
-        p.setGravity(0, 0, -15)
 
-        # 这些是周围那些白线，用来观察是否超过了obs的边界
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_low_obs, self.y_low_obs, 0],
-            lineToXYZ=[self.x_low_obs, self.y_low_obs, self.z_high_obs])
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_low_obs, self.y_high_obs, 0],
-            lineToXYZ=[self.x_low_obs, self.y_high_obs, self.z_high_obs])
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_high_obs, self.y_low_obs, 0],
-            lineToXYZ=[self.x_high_obs, self.y_low_obs, self.z_high_obs])
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_high_obs, self.y_high_obs, 0],
-            lineToXYZ=[self.x_high_obs, self.y_high_obs, self.z_high_obs])
+        if not self.object_ids or self.reset_count>10:
+            p.resetSimulation()
+            p.setGravity(0, 0, -11)
+            # 这些是周围那些白线，用来观察是否超过了obs的边界
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_low_obs, self.y_low_obs, 0],
+                lineToXYZ=[self.x_low_obs, self.y_low_obs, self.z_high_obs])
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_low_obs, self.y_high_obs, 0],
+                lineToXYZ=[self.x_low_obs, self.y_high_obs, self.z_high_obs])
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_high_obs, self.y_low_obs, 0],
+                lineToXYZ=[self.x_high_obs, self.y_low_obs, self.z_high_obs])
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_high_obs, self.y_high_obs, 0],
+                lineToXYZ=[self.x_high_obs, self.y_high_obs, self.z_high_obs])
 
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_low_obs, self.y_low_obs, self.z_high_obs],
-            lineToXYZ=[self.x_high_obs, self.y_low_obs, self.z_high_obs])
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_low_obs, self.y_high_obs, self.z_high_obs],
-            lineToXYZ=[self.x_high_obs, self.y_high_obs, self.z_high_obs])
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_low_obs, self.y_low_obs, self.z_high_obs],
-            lineToXYZ=[self.x_low_obs, self.y_high_obs, self.z_high_obs])
-        p.addUserDebugLine(
-            lineFromXYZ=[self.x_high_obs, self.y_low_obs, self.z_high_obs],
-            lineToXYZ=[self.x_high_obs, self.y_high_obs, self.z_high_obs])
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_low_obs, self.y_low_obs, self.z_high_obs],
+                lineToXYZ=[self.x_high_obs, self.y_low_obs, self.z_high_obs])
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_low_obs, self.y_high_obs, self.z_high_obs],
+                lineToXYZ=[self.x_high_obs, self.y_high_obs, self.z_high_obs])
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_low_obs, self.y_low_obs, self.z_high_obs],
+                lineToXYZ=[self.x_low_obs, self.y_high_obs, self.z_high_obs])
+            p.addUserDebugLine(
+                lineFromXYZ=[self.x_high_obs, self.y_low_obs, self.z_high_obs],
+                lineToXYZ=[self.x_high_obs, self.y_high_obs, self.z_high_obs])
 
-        p.loadURDF(os.path.join(self.urdf_root_path, "plane.urdf"),
-                   basePosition=[0, 0, -0.65])
-        self.kuka_id = p.loadSDF(os.path.join(sdf_loc, "kuka_with_wsg2.sdf"))[0]
-        table_uid = p.loadURDF(os.path.join(self.urdf_root_path,
-                                            "table/table.urdf"),
-                               basePosition=[0.5, 0, -0.65])
-        p.changeVisualShape(table_uid, -1, rgbaColor=[1, 1, 1, 1])
+            p.loadURDF(os.path.join(self.urdf_root_path, "plane.urdf"),
+                       basePosition=[0, 0, -0.65])
+            self.kuka_id = p.loadSDF(os.path.join(sdf_loc, "kuka_with_wsg2.sdf"))[0]
+            table_uid = p.loadURDF("table/table.urdf",basePosition=[0.5, 0, -0.65])
 
-        self.motor_indices = SlideBars(self.kuka_id).get_motor_indices()
+            p.changeVisualShape(table_uid, -1, rgbaColor=[0.8, 0.8, 0.8, 1])
 
-        for index, value in zip(self.motor_indices, self.init_joint_positions):
-            p.resetJointState(self.kuka_id, index, value)
+            self.motor_indices = SlideBars(self.kuka_id).get_motor_indices()
 
-        for _ in range(15):
-            random_urdf_min_index = 0
-            random_urdf_max_index = 999
-            digit = str(random.randint(random_urdf_min_index, random_urdf_max_index))
-            random_urdf_index = (len(str(random_urdf_max_index)) - len(digit)) * '0' + digit
+            for index, value in zip(self.motor_indices, self.init_joint_positions):
+                p.resetJointState(self.kuka_id, index, value)
 
-            self.object_id = p.loadURDF(os.path.join(self.urdf_root_path,
-                                                     "random_urdfs/" + random_urdf_index + "/" + random_urdf_index + ".urdf"),
-                                        basePosition=[
-                                            random.uniform(self.x_low_obs,
-                                                           self.x_high_obs),
-                                            random.uniform(self.y_low_obs,
-                                                           self.y_high_obs), 0.02
-                                        ])
-            p.stepSimulation()
+            for _ in range(700):
+                p.stepSimulation()
 
-        for _ in range(700):
-            p.stepSimulation()
+            selected_objects: List = random.sample(self.objects_list, 10)
+
+            if OBJECT_MODEL_TYPE == 'ignition':
+                for obj in selected_objects:
+                    id = p.loadSDF('object_models/' + obj + '/1/model.sdf')[0]
+                    p.resetBasePositionAndOrientation(id, [random.uniform(self.x_low_obs, self.x_high_obs),
+                                                           random.uniform(self.y_low_obs, self.y_high_obs),
+                                                           0.02],
+                                                      p.getQuaternionFromEuler([0, 0, 0]))
+
+                    # p.resetBasePositionAndOrientation(id, [random.gauss(0.5,0.1),
+                    #                                        random.uniform(0,0.1),
+                    #                                        0.02],
+                    #                                   p.getQuaternionFromEuler([0,0,0]))
+                    self.object_ids.append(id)
+                    for _ in range(700):
+                        p.stepSimulation()
+
+                for _ in range(700):
+                    p.stepSimulation()
+
+            if OBJECT_MODEL_TYPE == 'pybullet':
+
+                for _ in range(15):
+                    random_urdf_min_index = 0
+                    random_urdf_max_index = 999
+                    digit = str(random.randint(random_urdf_min_index, random_urdf_max_index))
+                    random_urdf_index = (len(str(random_urdf_max_index)) - len(digit)) * '0' + digit
+
+                    self.object_id = p.loadURDF(os.path.join(self.urdf_root_path,
+                                                             "random_urdfs/" + random_urdf_index + "/" + random_urdf_index + ".urdf"),
+                                                basePosition=[
+                                                    random.uniform(self.x_low_obs,
+                                                                   self.x_high_obs),
+                                                    random.uniform(self.y_low_obs,
+                                                                   self.y_high_obs), 0.02
+                                                ])
+                    p.stepSimulation()
+
+                for _ in range(700):
+                    p.stepSimulation()
+
+
+        else:
+            for index, value in zip(self.motor_indices, self.init_joint_positions):
+                p.resetJointState(self.kuka_id, index, value)
+
+            for _ in range(700):
+                p.stepSimulation()
 
         self.num_joints = p.getNumJoints(self.kuka_id)
 
-        p.stepSimulation()
+        logger.info(f'object lists={self.object_ids}')
 
         (_, _, px, _,
          _) = p.getCameraImage(width=960,
@@ -283,7 +419,7 @@ class KukaVisualGraspEnv(gym.Env):
                                renderer=p.ER_BULLET_HARDWARE_OPENGL)
         self.images = px
 
-        self.object_pos = p.getBasePositionAndOrientation(self.object_id)[0]
+        # self.object_pos = p.getBasePositionAndOrientation(self.object_id)[0]
 
         self.images = self.images[:, :, :3]  # the 4th channel is alpha channel, we do not need it.
 
@@ -324,12 +460,12 @@ class KukaVisualGraspEnv(gym.Env):
         return cropped
 
     def _step(self, action: np.float32):
-        dv = 0.05
+        dv = 0.02
         dx = action[0] * dv
         dy = action[1] * dv
         dz = action[2] * dv
         theta = action[3]
-
+        logger.info(f'step count={self.step_counter}')
         self.current_pos = p.getLinkState(self.kuka_id, 6)[4]
         self.new_robot_pos = [
             self.current_pos[0] + dx, self.current_pos[1] + dy,
@@ -366,10 +502,10 @@ class KukaVisualGraspEnv(gym.Env):
         # p.enableJointForceTorqueSensor(self.kuka_id, 11, 1)
         # 一定注意是取第4个值，请参考pybullet手册的这个函数返回值的说明
         self.robot_state = p.getLinkState(self.kuka_id, 6)[4]
-
-        self.object_state = np.array(
-            p.getBasePositionAndOrientation(self.object_id)[0]).astype(
-            np.float32)
+        #
+        # self.object_state = np.array(
+        #     p.getBasePositionAndOrientation(self.object_id)[0]).astype(
+        #     np.float32)
 
         # square_dx = (self.robot_state[0] - self.object_state[0]) ** 2
         # square_dy = (self.robot_state[1] - self.object_state[1]) ** 2
@@ -383,12 +519,11 @@ class KukaVisualGraspEnv(gym.Env):
         y = self.robot_state[1]
         z = self.robot_state[2]
         self.is_grasped = False
+        logger.info(f'z={z}')
         if z < 0.3:
             for _ in range(10):
                 p.setJointMotorControl2(self.kuka_id, 11, p.POSITION_CONTROL, 0.06, 2, force=300)
-
                 p.setJointMotorControl2(self.kuka_id, 13, p.POSITION_CONTROL, 0.06, 2, force=300)
-
                 p.stepSimulation()
 
             logger.debug(f'gripper_left_pos={p.getJointState(self.kuka_id, 11)[0]}')
@@ -397,12 +532,27 @@ class KukaVisualGraspEnv(gym.Env):
             if p.getJointState(self.kuka_id, 11)[0] >= 0.048 and p.getJointState(self.kuka_id, 13)[0] >= 0.048:
                 self.is_grasped = False
             else:
-                self.is_grasped = True
+                p.setJointMotorControlArray(self.kuka_id, self.motor_indices[:7], p.POSITION_CONTROL,
+                                            self.init_joint_positions[:7])
+                for _ in range(200):
+                    p.stepSimulation()
+                if p.getJointState(self.kuka_id, 11)[0] >= 0.048 and p.getJointState(self.kuka_id, 13)[0] >= 0.048:
+                    self.is_grasped = False
+                else:
+                    self.is_grasped = True
+                    for id in self.object_ids:
+                        pos_orn = p.getBasePositionAndOrientation(id)
+                        if pos_orn[0][2] > 0.3:
+                            p.removeBody(id)
+        else:
+            p.resetJointState(self.kuka_id,11,0)
+            p.resetJointState(self.kuka_id,13,0)
+            p.stepSimulation()
 
         # 如果机械比末端超过了obs的空间，也视为done，而且会给予一定的惩罚
-        terminated = bool(x < self.x_low_obs or x > self.x_high_obs
-                          or y < self.y_low_obs or y > self.y_high_obs
-                          or z < self.z_low_obs + 0.25 or z > self.z_high_obs)
+        terminated = bool(x < self.x_low_obs - 0.1 or x > self.x_high_obs + 0.1
+                          or y < self.y_low_obs - 0.1 or y > self.y_high_obs + 0.1
+                          or z < self.z_low_obs + 0.25 or z > self.z_high_obs + 0.2)
 
         if terminated:
             reward = -0.1
@@ -527,7 +677,7 @@ class ValidateEnv:
                                      cameraPitch=-40,
                                      cameraTargetPosition=[0.55, -0.35, 0.2])
 
-        logger.info(f'motor indices={SlideBars(self.kuka_id).get_motor_indices()}')
+        logger.debug(f'motor indices={SlideBars(self.kuka_id).get_motor_indices()}')
         self.slide_bars = SlideBars(self.kuka_id)
         self.motor_indices = self.slide_bars.get_motor_indices()
         self.slide_bars.add_slidebars(self.init_joint_positions)
@@ -648,11 +798,9 @@ class ValidateEnv:
 if __name__ == '__main__':
     env = KukaVisualGraspEnv(is_render=True)
     obs = env.reset()
+
     while True:
         action = env.action_space.sample()
         obs_, reward, done, info = env.step(action)
         if done:
             obs = env.reset()
-    # env = ValidateEnv()
-    # # env.slidebar_debug()
-    # env.sim_grasp()
